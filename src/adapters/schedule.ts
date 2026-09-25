@@ -1,8 +1,9 @@
 import { config } from "../config.ts";
+import { log } from "../log.ts";
 import { competitionDate, toUtc } from "../domain/time.ts";
 import type { ScheduleSlot, Session } from "../domain/types.ts";
 import type { RawScheduleUnit } from "../source/types.ts";
-import { bool, mapSafe, num, str, toParticipantType, toStatus } from "./common.ts";
+import { bool, compositeSessionId, mapSafe, num, str, toParticipantType, toStatus } from "./common.ts";
 
 /**
  * Map an upstream schedule unit to a Session.
@@ -11,19 +12,31 @@ import { bool, mapSafe, num, str, toParticipantType, toStatus } from "./common.t
  * scheduled, stored or displayed, so they are dropped rather than half-persisted.
  */
 export function toSession(raw: RawScheduleUnit): Session | null {
-  // ResCode is the cross-endpoint key; Key is the same value on most routes.
-  const id = str(raw.ResCode) || str(raw.Key);
-  if (!id) return null;
+  // ResCode is the per-sport key; Key is the same value on most routes. It is
+  // NOT globally unique - see the Session.id doc comment - so the id we store is
+  // always sportCode + resCode together, never the bare code.
+  const resCode = str(raw.ResCode) || str(raw.Key);
+  if (!resCode) return null;
 
   const startsAt = toUtc(raw.DateTimeRaw);
   if (!startsAt) return null;
+
+  const sportCode = str(raw.Disc);
+  if (!sportCode) {
+    // Every route this adapter is fed from is discipline-scoped and always sends
+    // Disc, so this should not happen - but without it there is no safe way to
+    // scope the id, so drop the record rather than risk a cross-sport collision.
+    log.drift("schedule.missingDisc", { resCode });
+    return null;
+  }
 
   const orgs = Array.isArray(raw.Orgs) ? raw.Orgs.map((o) => str(o)).filter(Boolean) : [];
   const status = toStatus(raw.Status, "schedule.Status");
 
   return {
-    id,
-    sportCode: str(raw.Disc),
+    id: compositeSessionId(sportCode, resCode),
+    resCode,
+    sportCode,
     sportName: str(raw.DiscDesc),
     eventKey: str(raw.Event),
     eventName: str(raw.EventDesc),

@@ -53,8 +53,22 @@ export interface EventRef {
 
 /** A schedulable session - the unit of polling and display. */
 export interface Session {
-  /** Upstream ResCode. Opaque composite string; never parse or trim it. */
+  /**
+   * Internal primary key: `${sportCode}:${resCode}`.
+   *
+   * The upstream ResCode alone is NOT a safe key - it is only unique within one
+   * sport. Its format is a generic event/phase/unit template
+   * (e.g. "M.TEAM--------------.SFNL.00020000"), and different sports
+   * independently produce the identical string for their own, unrelated sessions
+   * (confirmed: Badminton and Table Tennis both used this exact code for their own
+   * Men's Team semifinal on the same day). Keying storage on ResCode alone let one
+   * sport's poll silently overwrite another's row. Always build and compare this
+   * id through `compositeSessionId()`, never construct it ad hoc.
+   */
   id: string;
+  /** The raw upstream ResCode, needed verbatim when calling back into the source
+   * (e.g. `/results/<resCode>`) - opaque, never parse or trim it. */
+  resCode: string;
   sportCode: string;
   sportName: string;
   eventKey: string;

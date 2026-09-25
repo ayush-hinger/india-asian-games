@@ -14,7 +14,11 @@ CREATE TABLE IF NOT EXISTS sports (
 );
 
 CREATE TABLE IF NOT EXISTS sessions (
-  id                text PRIMARY KEY,      -- upstream ResCode, opaque
+  -- "${sportCode}:${resCode}", NOT the bare upstream ResCode: ResCode is only
+  -- unique within one sport (confirmed collision: Badminton and Table Tennis both
+  -- produced the identical ResCode for their own Men's Team semifinal on the same
+  -- day). Always build/compare this through compositeSessionId() in the app code.
+  id                text PRIMARY KEY,
   sport_code        text NOT NULL,
   competition_date  date NOT NULL,         -- JST calendar date
   starts_at         timestamptz NOT NULL,  -- stored UTC, source sends +09:00

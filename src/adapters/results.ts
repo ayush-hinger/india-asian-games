@@ -1,6 +1,6 @@
 import type { LiveState, ResultEntry, Session } from "../domain/types.ts";
 import type { RawCompetitor, RawResultPayload, RawScheduleUnit, RawSide } from "../source/types.ts";
-import { bool, mapSafe, num, str, toMedal, toStatus } from "./common.ts";
+import { bool, compositeSessionId, mapSafe, num, str, toMedal, toStatus } from "./common.ts";
 import { toSession } from "./schedule.ts";
 
 export function toResultEntry(sessionId: string, raw: RawCompetitor): ResultEntry | null {
@@ -67,8 +67,11 @@ function toSide(raw: RawSide | undefined) {
  * same row type means storage, the API and the UI need only one scoreboard shape.
  */
 export function sidesToResultEntries(unit: RawScheduleUnit): ResultEntry[] {
-  const sessionId = str(unit.ResCode) || str(unit.Key);
-  if (!sessionId) return [];
+  const resCode = str(unit.ResCode) || str(unit.Key);
+  if (!resCode) return [];
+  // ResCode alone collides across sports (see Session.id's doc comment); always
+  // scope it by discipline before using it as a key.
+  const sessionId = compositeSessionId(str(unit.Disc), resCode);
 
   const raw = [unit.Home, unit.Away].filter((s): s is RawSide => Boolean(s));
 
@@ -111,8 +114,10 @@ export function toLiveState(
   unit: RawScheduleUnit,
   results?: RawResultPayload,
 ): LiveState | null {
-  const sessionId = str(unit.ResCode) || str(unit.Key);
-  if (!sessionId) return null;
+  const resCode = str(unit.ResCode) || str(unit.Key);
+  if (!resCode) return null;
+  // Same scoping requirement as sidesToResultEntries - see that comment.
+  const sessionId = compositeSessionId(str(unit.Disc), resCode);
 
   const sides = [toSide(unit.Home), toSide(unit.Away)].filter((s) => s !== null);
   const status = toStatus(unit.Status, "live.Status");

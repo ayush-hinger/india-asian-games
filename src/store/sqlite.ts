@@ -259,6 +259,8 @@ CREATE TABLE IF NOT EXISTS sports (
 );
 
 CREATE TABLE IF NOT EXISTS sessions (
+  -- "sportCode:resCode" composite, NOT the bare upstream ResCode - see
+  -- src/domain/types.ts Session.id for why that alone is not a safe key.
   id TEXT PRIMARY KEY,
   sport_code TEXT NOT NULL, competition_date TEXT NOT NULL, starts_at TEXT NOT NULL,
   status TEXT NOT NULL, is_live INTEGER NOT NULL DEFAULT 0,

@@ -126,8 +126,10 @@ export async function syncLive(ctx: TaskContext): Promise<number> {
     } else if (raw.Disc && live.sessionId) {
       // Field sports (heats, finals) carry no Home/Away, so the scoreboard is only
       // available from the separate results payload - one request per session.
+      // The upstream call needs the raw ResCode, not our composite storage id.
+      const resCode = raw.ResCode || raw.Key || "";
       try {
-        const payload = await api.results(raw.Disc, live.sessionId);
+        const payload = await api.results(raw.Disc, resCode);
         const entries = toResultEntries(live.sessionId, payload.data);
         const changed = await ctx.store.upsertResults(live.sessionId, entries);
         live.standings = entries;
@@ -149,7 +151,9 @@ export async function syncLive(ctx: TaskContext): Promise<number> {
 export async function syncResultsFor(ctx: TaskContext, session: Session): Promise<number> {
   if (!session.sportCode) return 0;
   try {
-    const { data } = await api.results(session.sportCode, session.id);
+    // resCode is the raw upstream code the source expects; session.id is our own
+    // sportCode-scoped storage key and would 404 if sent here.
+    const { data } = await api.results(session.sportCode, session.resCode);
     const entries = toResultEntries(session.id, data);
     const changed = await ctx.store.upsertResults(session.id, entries);
     if (changed.length > 0) {

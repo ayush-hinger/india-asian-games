@@ -16,8 +16,11 @@ import { fixture } from "./helpers.ts";
 
 test("schedule: maps a real unit onto the normalized session", () => {
   const sessions = toSessions(fixture<RawScheduleUnit[]>("schedule-daily-ckt"));
-  const match = sessions.find((s) => s.id === "W.TEAM--------------.SFNL.000200--");
+  const match = sessions.find((s) => s.resCode === "W.TEAM--------------.SFNL.000200--");
   assert.ok(match, "expected the captured cricket semifinal");
+  // id is scoped by sport: the bare ResCode is not unique across disciplines
+  // (confirmed collision between Badminton and Table Tennis - see Session.id).
+  assert.equal(match.id, "CKT:W.TEAM--------------.SFNL.000200--");
 
   assert.equal(match.sportCode, "CKT");
   assert.equal(match.sportName, "Cricket");
@@ -58,21 +61,31 @@ test("schedule: drops records with no id or no start time", () => {
   assert.equal(toSession({ ResCode: "X" }), null);
 });
 
+test("schedule: drops a record with no Disc, rather than risk an unscoped id", () => {
+  // Every real route this feeds from always sends Disc; if it were ever missing,
+  // storing the bare ResCode would risk exactly the cross-sport collision that
+  // motivated the composite id in the first place.
+  assert.equal(
+    toSession({ ResCode: "X", DateTimeRaw: "2026-09-20T10:00:00+09:00" }),
+    null,
+  );
+});
+
 test("schedule: survives a malformed record inside a good batch", () => {
   const raw = [
-    { ResCode: "A", DateTimeRaw: "2026-09-20T10:00:00+09:00", Orgs: ["IND"] },
-    { ResCode: "B" },
-    { ResCode: "C", DateTimeRaw: "bogus" },
-    { ResCode: "D", DateTimeRaw: "2026-09-20T11:00:00+09:00", Orgs: null as never },
+    { ResCode: "A", Disc: "HOC", DateTimeRaw: "2026-09-20T10:00:00+09:00", Orgs: ["IND"] },
+    { ResCode: "B", Disc: "HOC" },
+    { ResCode: "C", Disc: "HOC", DateTimeRaw: "bogus" },
+    { ResCode: "D", Disc: "HOC", DateTimeRaw: "2026-09-20T11:00:00+09:00", Orgs: null as never },
   ] as RawScheduleUnit[];
   const sessions = toSessions(raw);
-  assert.deepEqual(sessions.map((s) => s.id), ["A", "D"]);
+  assert.deepEqual(sessions.map((s) => s.id), ["HOC:A", "HOC:D"]);
   assert.deepEqual(sessions[1]?.orgs, []);
 });
 
 test("schedule: an unknown status degrades instead of throwing", () => {
   const session = toSession({
-    ResCode: "Z", DateTimeRaw: "2026-09-20T10:00:00+09:00", Status: "SOMETHING_NEW",
+    ResCode: "Z", Disc: "HOC", DateTimeRaw: "2026-09-20T10:00:00+09:00", Status: "SOMETHING_NEW",
   });
   assert.equal(session?.status, "unknown");
 });
@@ -247,7 +260,8 @@ test("live: head-to-head sides project onto the shared result row shape", async 
 
   const entries = sidesToResultEntries(h2h);
   assert.equal(entries.length, 2);
-  assert.equal(entries[0]?.sessionId, h2h.ResCode);
+  // Scoped by sport, not the bare ResCode - see Session.id for why that matters.
+  assert.equal(entries[0]?.sessionId, `${h2h.Disc}:${h2h.ResCode}`);
   assert.ok(entries[0]?.regId, "a stable key is always produced");
   assert.ok(entries.every((e) => e.orgCode !== ""));
   // Start order is preserved so Home renders above Away.
@@ -268,10 +282,10 @@ test("live: a side missing its Reg still gets a unique key", async () => {
 test("status: the values discovered after Phase 0 now map cleanly", async () => {
   // PROVISIONAL and INTERMEDIATE only appeared once the Games were under way.
   const provisional = toSession({
-    ResCode: "P", DateTimeRaw: "2026-09-20T10:00:00+09:00", Status: "PROVISIONAL",
+    ResCode: "P", Disc: "SHO", DateTimeRaw: "2026-09-20T10:00:00+09:00", Status: "PROVISIONAL",
   });
   const intermediate = toSession({
-    ResCode: "I", DateTimeRaw: "2026-09-20T10:00:00+09:00", Status: "INTERMEDIATE",
+    ResCode: "I", Disc: "SHO", DateTimeRaw: "2026-09-20T10:00:00+09:00", Status: "INTERMEDIATE",
   });
   assert.equal(provisional?.status, "provisional");
   assert.equal(intermediate?.status, "intermediate");
@@ -285,7 +299,7 @@ test("status: the values discovered after Phase 0 now map cleanly", async () => 
 test("status: DELAYED maps to a pre-event status, not a pending one", async () => {
   // Turned up on 23 Sep, days after PROVISIONAL and INTERMEDIATE.
   const delayed = toSession({
-    ResCode: "D", DateTimeRaw: "2026-09-23T10:00:00+09:00", Status: "DELAYED",
+    ResCode: "D", Disc: "BDM", DateTimeRaw: "2026-09-23T10:00:00+09:00", Status: "DELAYED",
   });
   assert.equal(delayed?.status, "delayed");
   assert.equal(delayed?.isLive, false);

@@ -190,6 +190,19 @@ The core schedulable record. `ResCode` is the primary key across every other end
 **opaque string** — do not parse or trim it. The dashes are significant and the codes are
 reused verbatim in every other route.
 
+**`ResCode` is only unique within one discipline scope, never globally.** Confirmed
+by a real bug: on 2026-09-23, Badminton's Men's Team Semifinal Tie 2 (India vs
+China) and Table Tennis's Men's Team Semifinal Match 2 (Korea vs Japan) both used
+the literal code `M.TEAM--------------.SFNL.00020000` — the template just encodes a
+generic event/phase/unit shape, with nothing discipline-specific in it, so unrelated
+sports collide whenever their internal event numbering lines up. A scan of the
+schedule window this tracker holds found **106 such collisions** across disciplines,
+so this is routine, not a fluke. Any storage keyed on the bare `ResCode` will have
+one sport's session silently overwritten by another's on every collision — this is
+exactly how a real, scheduled India match went missing from the dashboard. Always
+key on `(Disc, ResCode)` together; see `compositeSessionId()` in
+`src/adapters/common.ts`.
+
 Vocabularies observed across all 254 units today (assume these can grow — log and skip unknowns):
 
 - `Status`: `SCHEDULED` · `START_LIST` · `DELAYED` · `GETTING_READY` · `RUNNING` ·

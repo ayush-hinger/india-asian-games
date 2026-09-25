@@ -1,6 +1,19 @@
 import type { MedalKind, ParticipantType, SessionStatus } from "../domain/types.ts";
 import { log } from "../log.ts";
 
+/**
+ * Build the internal session id from a sport code and the upstream ResCode.
+ *
+ * ResCode alone is not globally unique - it is a generic event/phase/unit
+ * template that different sports independently reproduce (see the Session.id
+ * doc comment in src/domain/types.ts for the confirmed Badminton/Table Tennis
+ * collision). Every place that builds or looks up a session id must go through
+ * this function so the scoping is never accidentally dropped.
+ */
+export function compositeSessionId(sportCode: string, resCode: string): string {
+  return `${sportCode}:${resCode}`;
+}
+
 export const str = (v: unknown, fallback = ""): string =>
   typeof v === "string" ? v : typeof v === "number" ? String(v) : fallback;
 

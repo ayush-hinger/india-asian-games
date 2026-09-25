@@ -105,3 +105,51 @@ test("meta: round-trips and returns null for unknown keys", async () => {
   assert.equal(await store.getMeta("catalogue.syncedAt"), "2026-09-20T00:00:00.000Z");
   assert.equal(await store.getMeta("nope"), null);
 });
+
+test("sessions: two different sports sharing an upstream ResCode do not clobber each other", async () => {
+  // Regression test for the exact bug reported live: on 2026-09-23, Badminton's
+  // Men's Team Semifinal Tie 2 (India vs China) and Table Tennis's Men's Team
+  // Semifinal Match 2 (Korea vs Japan) both used the identical upstream ResCode
+  // "M.TEAM--------------.SFNL.00020000" - it is a generic event/phase/unit
+  // template, not a globally unique id. Storing sessions keyed on the bare
+  // ResCode let whichever sport's poll ran last silently overwrite the other's
+  // row, which is how India's scheduled badminton match disappeared from the
+  // schedule entirely. The fix scopes the storage key by sport
+  // (compositeSessionId), so both rows must survive side by side.
+  const sharedResCode = "M.TEAM--------------.SFNL.00020000";
+  const badminton = toSessions([{
+    ResCode: sharedResCode, Disc: "BDM", DiscDesc: "Badminton",
+    DateTimeRaw: "2026-09-23T15:00:00+09:00", Status: "SCHEDULED",
+    Orgs: ["IND", "CHN"], UnitDesc: "Men's Team Semifinals Tie 2",
+  }] as never);
+  const tableTennis = toSessions([{
+    ResCode: sharedResCode, Disc: "TTE", DiscDesc: "Table Tennis",
+    DateTimeRaw: "2026-09-23T06:00:00+09:00", Status: "RUNNING",
+    Orgs: ["KOR", "JPN"], UnitDesc: "Men's Team Semifinals Match 2",
+  }] as never);
+
+  assert.notEqual(badminton[0]?.id, tableTennis[0]?.id, "ids must not collide");
+
+  // Badminton's sweep, then table tennis's - the write order that triggered the
+  // bug, since whichever discipline's tier ran last used to win the shared row.
+  await store.upsertSessions(badminton);
+  await store.upsertSessions(tableTennis);
+
+  const bdm = await store.getSession(badminton[0]!.id);
+  const tte = await store.getSession(tableTennis[0]!.id);
+
+  assert.ok(bdm, "the badminton session must still exist");
+  assert.equal(bdm.sportCode, "BDM");
+  assert.deepEqual(bdm.orgs, ["IND", "CHN"]);
+  assert.equal(bdm.hasTrackedCountry, true, "India's badminton tie must be tracked");
+
+  assert.ok(tte, "the table tennis session must still exist");
+  assert.equal(tte.sportCode, "TTE");
+  assert.deepEqual(tte.orgs, ["KOR", "JPN"]);
+
+  // Both must appear in a same-day query, not just one survivor.
+  const day = await store.getSessions({ competitionDate: "2026-09-23" });
+  const ids = day.map((s) => s.id);
+  assert.ok(ids.includes(badminton[0]!.id));
+  assert.ok(ids.includes(tableTennis[0]!.id));
+});
