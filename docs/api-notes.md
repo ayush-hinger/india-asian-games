@@ -370,6 +370,26 @@ numeric-looking for individuals (`12403803`) and a composite code for teams
 
 ---
 
+## 4a. The official site cannot be deep-linked (confirmed, not attempted)
+
+Reverse-engineered from the frontend bundle's vue-router config: the real per-event
+URL pattern is `/discipline/<DISC>/results/<ResCode>` (also `/discipline/<DISC>/schedule/daily/<date>`
+for a day view). It uses path-based history (`pushState`), not hash routing.
+
+**It does not work.** Every path except the bare homepage returns a genuine HTTP 404
+with a static "Not Found" page - confirmed for the reconstructed event URLs *and*
+for the site's own internal routes (`/schedule` 404s too). Ruled out: cookies,
+`Referer`, and real-browser `Accept`/`Accept-Language` headers - none change the
+result. This is a missing SPA-fallback rule on their CloudFront/S3 hosting, not
+an access-control gate: a real visitor who refreshed or bookmarked one of their
+own event pages would hit the identical 404.
+
+Consequence: we cannot link a tracker event to its corresponding page on the
+official site today. Only `https://results.asiangames2026.org/` (bare root) is
+guaranteed to load. If this ever gets fixed upstream (a custom-error-response
+rewrite to `index.html` would do it), the correct pattern to resume with is above -
+no further reverse-engineering needed.
+
 ## 5. Consequences for Phases 1–2
 
 1. **Decoder** — the brief's snippet is wrong; use the `latin1` round-trip above. This is the
