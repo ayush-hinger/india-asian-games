@@ -71,41 +71,42 @@ medal tally and India's medals, plus a day picker for any date in the Games. All
 times render in IST. Updates arrive over SSE; there is no polling from the browser
 beyond a 60-second safety refresh.
 
-Filter the schedule by **sport** and by **phase** (All / Live / Upcoming / Finished).
-The sport list is built from the sessions actually on that day, so it never offers a
-sport with nothing on it. Filters run against the already-fetched day, so switching
-is instant, and they are mirrored into the URL — `?sport=HOC&phase=live` is
-shareable, survives a refresh and works with the back button. The sport filter also
-narrows the live tiles, so the page stays internally consistent.
+Filter the schedule by **sport** (multi-select dropdown - pick any combination) and
+by **phase** (All / Live / Upcoming / Finished). The sport list is built from the
+sessions actually on that day, so it never offers a sport with nothing on it.
+Filters run against the already-fetched day, so switching is instant, and they are
+mirrored into the URL — `?sports=HOC,SHO&phase=live` is shareable, survives a
+refresh and works with the back button. The sport filter also narrows the live
+tiles, so the page stays internally consistent.
 
 ### REST API
 
 All responses are JSON, `no-store`, and every instant is **ISO-8601 UTC**. Conversion
 to IST happens in the UI, so the API has exactly one time convention.
 
-| Endpoint                                        | Description                                                                               |
-| ----------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| `GET /api/health`                               | Liveness, store driver, SSE client count, last catalogue sync                             |
-| `GET /api/schedule?date=&sport=&status=&live=1` | India's sessions for a competition day (JST calendar). Defaults to today. Filters compose |
-| `GET /api/live?sport=SHO`                       | Sessions in progress, each with its current scoreboard                                    |
-| `GET /api/upcoming?withinMinutes=240`           | Sessions starting soon                                                                    |
-| `GET /api/medals`                               | India's tally and every India medal, plus the full standings                              |
-| `GET /api/sports`                               | Sports India has entered                                                                  |
-| `GET /api/sport?code=SHO`                       | Per-sport drill-down: sessions and roster                                                 |
-| `GET /api/session?id=<ResCode>`                 | One session with its full result set                                                      |
-| `GET /api/contingent`                           | Athlete counts by sport                                                                   |
-| `GET /api/discussion`                           | The current r/IndianSports megathread (permalink + frameable embed URL)                   |
+| Endpoint                                         | Description                                                                                                                                                                           |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `GET /api/health`                                | Liveness, store driver, SSE client count, last catalogue sync                                                                                                                         |
+| `GET /api/schedule?date=&sports=&status=&live=1` | India's sessions for a competition day (JST calendar). Defaults to today. `sports` takes one or more comma-separated discipline codes (`sport` singular still works). Filters compose |
+| `GET /api/live?sports=SHO,HOC`                   | Sessions in progress, each with its current scoreboard. Same `sports` filter                                                                                                          |
+| `GET /api/upcoming?withinMinutes=240`            | Sessions starting soon                                                                                                                                                                |
+| `GET /api/medals`                                | India's tally and every India medal, plus the full standings                                                                                                                          |
+| `GET /api/sports`                                | Sports India has entered                                                                                                                                                              |
+| `GET /api/sport?code=SHO`                        | Per-sport drill-down: sessions and roster                                                                                                                                             |
+| `GET /api/session?id=<ResCode>`                  | One session with its full result set                                                                                                                                                  |
+| `GET /api/contingent`                            | Athlete counts by sport                                                                                                                                                               |
+| `GET /api/discussion`                            | The current r/IndianSports megathread (permalink + frameable embed URL)                                                                                                               |
 
 ```bash
 curl localhost:8080/api/live | jq
 curl "localhost:8080/api/schedule?date=2026-09-22" | jq '.sessions[].title'
-curl "localhost:8080/api/schedule?sport=HOC&live=1" | jq          # filters compose
+curl "localhost:8080/api/schedule?sports=HOC,SHO&live=1" | jq     # filters compose, multiple sports
 curl "localhost:8080/api/schedule?status=official,running" | jq '.count'
 curl localhost:8080/api/medals | jq '.own'
 ```
 
-`/api/schedule` also returns `totalForDay` and a `sports` array (each with a count),
-so a client can render a filter without a second request.
+`/api/schedule` also returns `totalForDay` and a `sportOptions` array (each with a
+count), so a client can render a filter without a second request.
 
 ### Live stream (SSE)
 

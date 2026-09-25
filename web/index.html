@@ -47,8 +47,20 @@
         <button type="button" class="chip" data-phase="upcoming">Upcoming</button>
         <button type="button" class="chip" data-phase="done">Finished</button>
       </div>
-      <label class="sr-only" for="sport">Sport</label>
-      <select id="sport"><option value="">All sports</option></select>
+      <div class="multiselect" id="sport-filter">
+        <button type="button" id="sport-filter-btn" class="chip sport-filter-btn"
+                aria-haspopup="listbox" aria-expanded="false">
+          All sports
+        </button>
+        <div class="multiselect-panel" id="sport-filter-panel" hidden role="listbox"
+             aria-multiselectable="true" aria-label="Filter by sport">
+          <div class="multiselect-actions">
+            <button type="button" data-action="all">All</button>
+            <button type="button" data-action="none">None</button>
+          </div>
+          <div class="multiselect-options" id="sport-filter-options"></div>
+        </div>
+      </div>
       <button type="button" id="clear-filters" class="chip chip-clear" hidden>Clear</button>
     </div>
     <p class="filter-count" id="filter-count"></p>

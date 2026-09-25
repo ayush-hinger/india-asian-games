@@ -38,24 +38,29 @@ const STATUS_LABEL = {
 
 /**
  * Filter state lives in the URL query, so a filtered view is shareable, survives a
- * refresh, and works with the back button.
+ * refresh, and works with the back button. `sports` is a Set of discipline codes;
+ * an empty Set means "no filter", not "match nothing".
  */
-const state = { date: todayJst(), sport: "", phase: "all" };
+const state = { date: todayJst(), sports: new Set(), phase: "all" };
 
 /** The day's sessions, cached so filtering is instant and needs no refetch. */
 let daySessions = [];
+/** The current day's sport list, kept so All/None/Clear can rebuild the checkboxes
+ * without a refetch. */
+let currentSportOptions = [];
 
 function readStateFromUrl() {
   const q = new URLSearchParams(location.search);
   state.date = q.get("date") || todayJst();
-  state.sport = q.get("sport") || "";
+  const raw = q.get("sports") || q.get("sport") || ""; // singular kept for old links
+  state.sports = new Set(raw.split(",").map((v) => v.trim()).filter(Boolean));
   state.phase = ["live", "upcoming", "done"].includes(q.get("phase")) ? q.get("phase") : "all";
 }
 
 function writeStateToUrl() {
   const q = new URLSearchParams();
   if (state.date !== todayJst()) q.set("date", state.date);
-  if (state.sport) q.set("sport", state.sport);
+  if (state.sports.size > 0) q.set("sports", [...state.sports].join(","));
   if (state.phase !== "all") q.set("phase", state.phase);
   const search = q.toString();
   history.replaceState(null, "", search ? `?${search}` : location.pathname);
@@ -164,7 +169,9 @@ function liveCard({ session, results }) {
 async function renderLive() {
   // Keep the live tiles consistent with the sport filter; showing live cricket
   // while the page is filtered to hockey would just be confusing.
-  const query = state.sport ? `?sport=${encodeURIComponent(state.sport)}` : "";
+  const query = state.sports.size > 0
+    ? `?sports=${encodeURIComponent([...state.sports].join(","))}`
+    : "";
   const data = await api(`/api/live${query}`);
   const section = el("live-section");
   const root = el("live");
@@ -212,7 +219,7 @@ async function renderSchedule() {
     // Fetch the whole day once; the filters then run against the cache.
     const data = await api(`/api/schedule?date=${state.date}`);
     daySessions = data.sessions;
-    populateSportFilter(data.sports ?? []);
+    populateSportFilter(data.sportOptions ?? []);
     applyFilters();
   } catch {
     daySessions = [];
@@ -220,41 +227,86 @@ async function renderSchedule() {
   }
 }
 
-function populateSportFilter(sports) {
-  const select = el("sport");
-  const previous = state.sport;
-
-  select.replaceChildren();
-  const all = document.createElement("option");
-  all.value = "";
-  all.textContent = `All sports (${daySessions.length})`;
-  select.append(all);
-
-  for (const sport of sports) {
-    const option = document.createElement("option");
-    option.value = sport.code;
-    option.textContent = `${sport.name} (${sport.count})`;
-    select.append(option);
+/** Rebuilds the sport checkbox list and the summary button label. */
+function populateSportFilter(sportOptions) {
+  currentSportOptions = sportOptions;
+  const validCodes = new Set(sportOptions.map((s) => s.code));
+  // Drop any previously-selected sport that has nothing on the newly loaded day,
+  // rather than showing a checked box for a sport with zero matches.
+  for (const code of [...state.sports]) {
+    if (!validCodes.has(code)) state.sports.delete(code);
   }
 
-  // Keep the chosen sport if it still has sessions on the newly loaded day;
-  // otherwise fall back to all rather than showing an empty list with no cause.
-  const stillValid = sports.some((s) => s.code === previous);
-  state.sport = stillValid ? previous : "";
-  select.value = state.sport;
+  const container = el("sport-filter-options");
+  container.replaceChildren();
+  for (const sport of sportOptions) {
+    const label = document.createElement("label");
+    label.className = "ms-option";
+    label.setAttribute("role", "option");
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = sport.code;
+    checkbox.checked = state.sports.has(sport.code);
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) state.sports.add(sport.code);
+      else state.sports.delete(sport.code);
+      updateSportFilterButton(sportOptions);
+      applyFilters();
+      renderLive().catch(() => {});
+    });
+
+    label.append(checkbox, text("span", null, sport.name), text("span", "count", String(sport.count)));
+    container.append(label);
+  }
+
+  updateSportFilterButton(sportOptions);
+}
+
+/** The dropdown button reads "All sports", "Hockey", or "3 sports". */
+function updateSportFilterButton(sportOptions) {
+  const button = el("sport-filter-btn");
+  const chosen = [...state.sports];
+
+  let label = "All sports";
+  if (chosen.length === 1) {
+    label = sportOptions.find((s) => s.code === chosen[0])?.name ?? chosen[0];
+  } else if (chosen.length > 1) {
+    label = `${chosen.length} sports`;
+  }
+  // The dropdown arrow is a CSS ::after pseudo-element, so overwriting the
+  // button's text content does not disturb it.
+  button.textContent = label;
+  button.classList.toggle("is-on", chosen.length > 0);
+
+  for (const checkbox of document.querySelectorAll("#sport-filter-options input")) {
+    checkbox.checked = state.sports.has(checkbox.value);
+  }
+}
+
+function closeSportFilter() {
+  el("sport-filter-panel").hidden = true;
+  el("sport-filter-btn").setAttribute("aria-expanded", "false");
+}
+
+function toggleSportFilter() {
+  const panel = el("sport-filter-panel");
+  const opening = panel.hidden;
+  panel.hidden = !opening;
+  el("sport-filter-btn").setAttribute("aria-expanded", String(opening));
 }
 
 function applyFilters() {
   const root = el("schedule");
   const filtered = daySessions.filter(
-    (s) => (!state.sport || s.sportCode === state.sport) &&
+    (s) => (state.sports.size === 0 || state.sports.has(s.sportCode)) &&
            (state.phase === "all" || phaseOf(s) === state.phase),
   );
 
   for (const chip of document.querySelectorAll("#phase-chips .chip")) {
     chip.classList.toggle("is-on", chip.dataset.phase === state.phase);
   }
-  const filtering = state.sport !== "" || state.phase !== "all";
+  const filtering = state.sports.size > 0 || state.phase !== "all";
   el("clear-filters").hidden = !filtering;
 
   const liveToday = daySessions.filter((s) => phaseOf(s) === "live").length;
@@ -384,8 +436,29 @@ function init() {
   el("prev-day").addEventListener("click", () => shiftDay(-1));
   el("next-day").addEventListener("click", () => shiftDay(1));
 
-  el("sport").addEventListener("change", (e) => {
-    state.sport = e.target.value;
+  el("sport-filter-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    toggleSportFilter();
+  });
+  // Keep clicks inside the panel from bubbling to the document listener below,
+  // which would otherwise close it on every checkbox tick.
+  el("sport-filter-panel").addEventListener("click", (e) => e.stopPropagation());
+
+  document.addEventListener("click", closeSportFilter);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeSportFilter();
+  });
+
+  el("sport-filter-panel").querySelector('[data-action="all"]').addEventListener("click", () => {
+    const options = [...document.querySelectorAll("#sport-filter-options input")];
+    state.sports = new Set(options.map((c) => c.value));
+    populateSportFilter(currentSportOptions);
+    applyFilters();
+    renderLive().catch(() => {});
+  });
+  el("sport-filter-panel").querySelector('[data-action="none"]').addEventListener("click", () => {
+    state.sports = new Set();
+    populateSportFilter(currentSportOptions);
     applyFilters();
     renderLive().catch(() => {});
   });
@@ -398,9 +471,9 @@ function init() {
   }
 
   el("clear-filters").addEventListener("click", () => {
-    state.sport = "";
+    state.sports = new Set();
     state.phase = "all";
-    el("sport").value = "";
+    populateSportFilter(currentSportOptions);
     applyFilters();
     renderLive().catch(() => {});
   });

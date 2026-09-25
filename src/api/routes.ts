@@ -28,41 +28,39 @@ export const routes = {
   /**
    * The tracked country's schedule for one competition day (JST calendar).
    *
-   * Filters: `sport` (a discipline code), `status` (one or more normalized status
-   * values, comma-separated) and `live=1`. They compose, so
-   * `?sport=HOC&live=1` is "hockey, in progress".
+   * Filters: `sports` (one or more discipline codes, comma-separated - `sport`
+   * with a single code also works, for older links), `status` (one or more
+   * normalized status values, comma-separated) and `live=1`. They compose, so
+   * `?sports=HOC,SHO&live=1` is "hockey or shooting, in progress".
    */
   async schedule(ctx: RouteContext, params: URLSearchParams) {
     const date = params.get("date") ?? todayJst();
-    const sport = params.get("sport") ?? undefined;
 
-    const all = await ctx.store.getSessions({
-      competitionDate: date,
-      onlyTracked: true,
-      sportCode: sport,
-    });
+    // Fetched unfiltered by sport so `sports` below can report every discipline
+    // on the day, including ones the current filter has hidden.
+    const all = await ctx.store.getSessions({ competitionDate: date, onlyTracked: true });
 
-    const sessions = applyFilters(all, params);
+    const sportFilter = parseSportsParam(params);
+    const sessions = applyFilters(all, params, sportFilter);
 
     return {
       date,
-      sport: sport ?? null,
+      sports: sportFilter ? [...sportFilter] : [],
       count: sessions.length,
-      /** Total before `status`/`live` were applied, so a UI can show "3 of 20". */
+      /** Total before any filter was applied, so a UI can show "3 of 20". */
       totalForDay: all.length,
-      /** Sports actually on the schedule that day, for populating a filter. */
-      sports: summarizeSports(all),
+      /** Every sport on the schedule that day, with counts, for a filter UI. */
+      sportOptions: summarizeSports(all),
       sessions,
     };
   },
 
   /** Sessions in progress right now, each with its current scoreboard. */
   async live(ctx: RouteContext, params: URLSearchParams) {
-    const sessions = await ctx.store.getSessions({
-      onlyTracked: true,
-      onlyLive: true,
-      sportCode: params.get("sport") ?? undefined,
-    });
+    const all = await ctx.store.getSessions({ onlyTracked: true, onlyLive: true });
+    const sportFilter = parseSportsParam(params);
+    const sessions = sportFilter ? all.filter((s) => sportFilter.has(s.sportCode)) : all;
+
     const withResults = await Promise.all(
       sessions.map(async (session) => ({
         session,
@@ -159,8 +157,29 @@ function summarizeSports(sessions: Session[]): { code: string; name: string; cou
   return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
-function applyFilters(sessions: Session[], params: URLSearchParams): Session[] {
+/**
+ * `sports` (comma-separated) is the multi-select param; `sport` (singular) is
+ * kept working for links or scripts written against the single-sport version.
+ * Returns null for "no filter", which is distinct from an empty, everything-
+ * excluded set.
+ */
+function parseSportsParam(params: URLSearchParams): Set<string> | null {
+  const raw = params.get("sports") ?? params.get("sport");
+  if (!raw) return null;
+  const codes = raw.split(",").map((v) => v.trim()).filter(Boolean);
+  return codes.length > 0 ? new Set(codes) : null;
+}
+
+function applyFilters(
+  sessions: Session[],
+  params: URLSearchParams,
+  sportFilter: Set<string> | null,
+): Session[] {
   let out = sessions;
+
+  if (sportFilter) {
+    out = out.filter((s) => sportFilter.has(s.sportCode));
+  }
 
   if (params.get("live") === "1") {
     // `intermediate` means partial results posted mid-session, so it counts as
