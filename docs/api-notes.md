@@ -370,25 +370,34 @@ numeric-looking for individuals (`12403803`) and a composite code for teams
 
 ---
 
-## 4a. The official site cannot be deep-linked (confirmed, not attempted)
+## 4a. Linking to the official site: use the hash route
 
-Reverse-engineered from the frontend bundle's vue-router config: the real per-event
-URL pattern is `/discipline/<DISC>/results/<ResCode>` (also `/discipline/<DISC>/schedule/daily/<date>`
-for a day view). It uses path-based history (`pushState`), not hash routing.
+**Corrected 2026-09-25.** An earlier version of this section concluded the site
+could not be deep-linked. That was wrong: it tested path-style URLs, but the SPA
+uses **hash routing** (the bundle builds its router with `createWebHashHistory`,
+minified as `vM()`). The working per-event URL is:
 
-**It does not work.** Every path except the bare homepage returns a genuine HTTP 404
-with a static "Not Found" page - confirmed for the reconstructed event URLs *and*
-for the site's own internal routes (`/schedule` 404s too). Ruled out: cookies,
-`Referer`, and real-browser `Accept`/`Accept-Language` headers - none change the
-result. This is a missing SPA-fallback rule on their CloudFront/S3 hosting, not
-an access-control gate: a real visitor who refreshed or bookmarked one of their
-own event pages would hit the identical 404.
+```
+https://results.asiangames2026.org/#/discipline/<DISC>/results/<ResCode>
+```
 
-Consequence: we cannot link a tracker event to its corresponding page on the
-official site today. Only `https://results.asiangames2026.org/` (bare root) is
-guaranteed to load. If this ever gets fixed upstream (a custom-error-response
-rewrite to `index.html` would do it), the correct pattern to resume with is above -
-no further reverse-engineering needed.
+The server only ever receives `/` (everything after `#` stays in the browser), which
+always loads, and the router renders the event from the hash. Confirmed in headless
+Chrome: `#/discipline/CKT/results/W.TEAM--------------.SFNL.000200--` renders the
+full BAN v IND scorecard. Sibling routes under a discipline: `schedule/:rsc?`,
+`groups/:rsc?/:group?`, `knock-out/:rsc?`.
+
+The path-style form **without** `#` (`/discipline/<DISC>/results/<ResCode>`) still
+returns a static HTTP 404 "Not Found" page, as does any path other than `/`. That is
+what the earlier test hit. Never drop the `#`.
+
+The tracker builds these in `src/source/site.ts` and returns them as `officialUrl` on
+every session. `<DISC>` and `<ResCode>` are the same scope and raw ResCode used for
+API calls, never our composite `sportCode:resCode` id.
+
+Aside: `/<DISC>/reports/just-unit/<ResCode>` returns the official PDFs for a session
+(`C51*` start list, `C73*` results) as absolute URLs under `/ag2026/reports/`, and
+those load when linked directly too.
 
 ## 5. Consequences for Phases 1–2
 

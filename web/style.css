@@ -119,6 +119,12 @@ h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; color: 
 .badge.official { border-color: var(--green); color: var(--green); }
 .badge.medal { border-color: var(--saffron); color: var(--saffron); }
 
+.official {
+  font-size: 12px; color: var(--muted); text-decoration: none; white-space: nowrap; flex: none;
+}
+.official:hover { color: var(--saffron); text-decoration: underline; }
+.card .official { display: inline-block; margin-top: 10px; }
+
 .win { display: flex; align-items: center; gap: 12px; padding: 11px 14px; }
 .win .pill {
   width: 26px; height: 26px; border-radius: 50%; flex: none; display: grid; place-items: center;

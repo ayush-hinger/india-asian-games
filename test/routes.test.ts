@@ -134,3 +134,17 @@ test("live route accepts the same multi-sport filter", async () => {
   assert.equal(multi.live.every((item) => ["CKT", "SHO"].includes(item.session.sportCode)), true);
   assert.ok(multi.count >= scoped.count);
 });
+
+test("every session links to its own page on the official site", async () => {
+  const { eventPageUrl } = await import("../src/source/site.ts");
+
+  const res = await call(`date=${day}`);
+  assert.ok(res.sessions.length > 0);
+  for (const s of res.sessions) {
+    // Built from the upstream ResCode, never our composite `${sport}:${resCode}` id.
+    assert.equal(s.officialUrl, eventPageUrl(s.sportCode, s.resCode));
+  }
+
+  const live = await routes.live(ctx, new URLSearchParams(""));
+  assert.equal(live.live.every((item) => item.session.officialUrl.includes("/#/discipline/")), true);
+});

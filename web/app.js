@@ -126,6 +126,17 @@ function renderWins(wins) {
   }
 }
 
+/** Opens the session's own page on the official results site, in a new tab. */
+function officialAnchor(session) {
+  if (!session.officialUrl) return null;
+  const a = text("a", "official", "Results ↗");
+  a.href = session.officialUrl;
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.title = "Open this event on results.asiangames2026.org";
+  return a;
+}
+
 // ----------------------------------------------------------------- live tiles
 
 function liveCard({ session, results }) {
@@ -163,6 +174,8 @@ function liveCard({ session, results }) {
   }
 
   card.append(score);
+  const official = officialAnchor(session);
+  if (official) card.append(official);
   return card;
 }
 
@@ -209,6 +222,9 @@ function scheduleRow(session) {
     const cls = session.isLive ? "badge live" : session.status === "official" ? "badge official" : "badge";
     row.append(text("span", cls, label));
   }
+
+  const official = officialAnchor(session);
+  if (official) row.append(official);
   return row;
 }
 

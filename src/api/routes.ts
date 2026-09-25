@@ -1,6 +1,7 @@
 import { config } from "../config.ts";
 import { todayJst } from "../domain/time.ts";
 import type { Session } from "../domain/types.ts";
+import { eventPageUrl } from "../source/site.ts";
 import type { Store } from "../store/index.ts";
 import type { SseHub } from "./sse.ts";
 
@@ -51,7 +52,7 @@ export const routes = {
       totalForDay: all.length,
       /** Every sport on the schedule that day, with counts, for a filter UI. */
       sportOptions: summarizeSports(all),
-      sessions,
+      sessions: sessions.map(withOfficialUrl),
     };
   },
 
@@ -63,7 +64,7 @@ export const routes = {
 
     const withResults = await Promise.all(
       sessions.map(async (session) => ({
-        session,
+        session: withOfficialUrl(session),
         results: await ctx.store.getResults(session.id),
       })),
     );
@@ -78,7 +79,7 @@ export const routes = {
       startingWithinMs: Number.isFinite(withinMs) ? withinMs : 4 * 60 * 60_000,
       limit: 25,
     });
-    return { count: sessions.length, sessions };
+    return { count: sessions.length, sessions: sessions.map(withOfficialUrl) };
   },
 
   async medals(ctx: RouteContext) {
@@ -101,7 +102,7 @@ export const routes = {
     if (!code) return { error: "code is required" };
     const sessions = await ctx.store.getSessions({ sportCode: code, onlyTracked: true });
     const participants = await ctx.store.getParticipants(code);
-    return { code, sessions, participants };
+    return { code, sessions: sessions.map(withOfficialUrl), participants };
   },
 
   async session(ctx: RouteContext, params: URLSearchParams) {
@@ -109,7 +110,7 @@ export const routes = {
     if (!id) return { error: "id is required" };
     const session = await ctx.store.getSession(id);
     if (!session) return { error: "not found" };
-    return { session, results: await ctx.store.getResults(id) };
+    return { session: withOfficialUrl(session), results: await ctx.store.getResults(id) };
   },
 
   /**
@@ -142,6 +143,11 @@ export const routes = {
     };
   },
 };
+
+/** Adds the session's page on the official results site, built from its raw ResCode. */
+function withOfficialUrl(s: Session): Session & { officialUrl: string } {
+  return { ...s, officialUrl: eventPageUrl(s.sportCode, s.resCode) };
+}
 
 /**
  * Group sessions by sport with counts, so a client can build a sport filter that

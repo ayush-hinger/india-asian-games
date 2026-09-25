@@ -84,6 +84,9 @@ tiles, so the page stays internally consistent.
 All responses are JSON, `no-store`, and every instant is **ISO-8601 UTC**. Conversion
 to IST happens in the UI, so the API has exactly one time convention.
 
+Every session also carries `officialUrl`, its own page on results.asiangames2026.org
+(`/#/discipline/<DISC>/results/<ResCode>`). The dashboard links each event there.
+
 | Endpoint                                         | Description                                                                                                                                                                           |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `GET /api/health`                                | Liveness, store driver, SSE client count, last catalogue sync                                                                                                                         |
