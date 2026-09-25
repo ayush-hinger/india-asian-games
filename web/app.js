@@ -36,7 +36,40 @@ const STATUS_LABEL = {
   unknown: "",
 };
 
-let currentDate = todayJst();
+/**
+ * Filter state lives in the URL query, so a filtered view is shareable, survives a
+ * refresh, and works with the back button.
+ */
+const state = { date: todayJst(), sport: "", phase: "all" };
+
+/** The day's sessions, cached so filtering is instant and needs no refetch. */
+let daySessions = [];
+
+function readStateFromUrl() {
+  const q = new URLSearchParams(location.search);
+  state.date = q.get("date") || todayJst();
+  state.sport = q.get("sport") || "";
+  state.phase = ["live", "upcoming", "done"].includes(q.get("phase")) ? q.get("phase") : "all";
+}
+
+function writeStateToUrl() {
+  const q = new URLSearchParams();
+  if (state.date !== todayJst()) q.set("date", state.date);
+  if (state.sport) q.set("sport", state.sport);
+  if (state.phase !== "all") q.set("phase", state.phase);
+  const search = q.toString();
+  history.replaceState(null, "", search ? `?${search}` : location.pathname);
+}
+
+/**
+ * Which bucket a session falls into. `intermediate` means partial results posted
+ * while the session is still under way, so it belongs with live rather than done.
+ */
+function phaseOf(session) {
+  if (session.isLive || session.status === "intermediate") return "live";
+  if (["official", "unofficial", "provisional"].includes(session.status)) return "done";
+  return "upcoming";
+}
 
 // ---------------------------------------------------------------- medal tally
 
@@ -129,7 +162,10 @@ function liveCard({ session, results }) {
 }
 
 async function renderLive() {
-  const data = await api("/api/live");
+  // Keep the live tiles consistent with the sport filter; showing live cricket
+  // while the page is filtered to hockey would just be confusing.
+  const query = state.sport ? `?sport=${encodeURIComponent(state.sport)}` : "";
+  const data = await api(`/api/live${query}`);
   const section = el("live-section");
   const root = el("live");
   root.replaceChildren();
@@ -173,16 +209,70 @@ async function renderSchedule() {
   const root = el("schedule");
   root.replaceChildren(text("div", "empty", "Loading…"));
   try {
-    const data = await api(`/api/schedule?date=${currentDate}`);
-    root.replaceChildren();
-    if (data.count === 0) {
-      root.append(text("div", "empty", "No India sessions scheduled on this day."));
-      return;
-    }
-    for (const session of data.sessions) root.append(scheduleRow(session));
+    // Fetch the whole day once; the filters then run against the cache.
+    const data = await api(`/api/schedule?date=${state.date}`);
+    daySessions = data.sessions;
+    populateSportFilter(data.sports ?? []);
+    applyFilters();
   } catch {
+    daySessions = [];
     root.replaceChildren(text("div", "empty", "Could not load the schedule."));
   }
+}
+
+function populateSportFilter(sports) {
+  const select = el("sport");
+  const previous = state.sport;
+
+  select.replaceChildren();
+  const all = document.createElement("option");
+  all.value = "";
+  all.textContent = `All sports (${daySessions.length})`;
+  select.append(all);
+
+  for (const sport of sports) {
+    const option = document.createElement("option");
+    option.value = sport.code;
+    option.textContent = `${sport.name} (${sport.count})`;
+    select.append(option);
+  }
+
+  // Keep the chosen sport if it still has sessions on the newly loaded day;
+  // otherwise fall back to all rather than showing an empty list with no cause.
+  const stillValid = sports.some((s) => s.code === previous);
+  state.sport = stillValid ? previous : "";
+  select.value = state.sport;
+}
+
+function applyFilters() {
+  const root = el("schedule");
+  const filtered = daySessions.filter(
+    (s) => (!state.sport || s.sportCode === state.sport) &&
+           (state.phase === "all" || phaseOf(s) === state.phase),
+  );
+
+  for (const chip of document.querySelectorAll("#phase-chips .chip")) {
+    chip.classList.toggle("is-on", chip.dataset.phase === state.phase);
+  }
+  const filtering = state.sport !== "" || state.phase !== "all";
+  el("clear-filters").hidden = !filtering;
+
+  const liveToday = daySessions.filter((s) => phaseOf(s) === "live").length;
+  el("filter-count").textContent = daySessions.length === 0
+    ? ""
+    : filtering
+      ? `Showing ${filtered.length} of ${daySessions.length} sessions`
+      : `${daySessions.length} sessions${liveToday ? ` · ${liveToday} live now` : ""}`;
+
+  root.replaceChildren();
+  if (filtered.length === 0) {
+    root.append(text("div", "empty", daySessions.length === 0
+      ? "No India sessions scheduled on this day."
+      : "No sessions match these filters."));
+    return;
+  }
+  for (const session of filtered) root.append(scheduleRow(session));
+  writeStateToUrl();
 }
 
 // --------------------------------------------------------- community thread
@@ -262,7 +352,7 @@ function connect() {
   source.addEventListener("results.updated", () => refresh(renderLive));
   source.addEventListener("session.updated", () => refresh(() => {
     renderLive();
-    if (currentDate === todayJst()) renderSchedule();
+    if (state.date === todayJst()) renderSchedule();
   }));
   source.addEventListener("medals.updated", () => refresh(renderTally));
   source.addEventListener("medal.won", () => refresh(renderTally));
@@ -278,20 +368,42 @@ function connect() {
 // --------------------------------------------------------------------- setup
 
 function shiftDay(days) {
-  const next = new Date(Date.parse(`${currentDate}T00:00:00Z`) + days * 86400000);
-  currentDate = next.toISOString().slice(0, 10);
-  el("date").value = currentDate;
+  const next = new Date(Date.parse(`${state.date}T00:00:00Z`) + days * 86400000);
+  state.date = next.toISOString().slice(0, 10);
+  el("date").value = state.date;
   renderSchedule();
 }
 
 function init() {
-  el("date").value = currentDate;
+  readStateFromUrl();
+  el("date").value = state.date;
   el("date").addEventListener("change", (e) => {
-    currentDate = e.target.value || todayJst();
+    state.date = e.target.value || todayJst();
     renderSchedule();
   });
   el("prev-day").addEventListener("click", () => shiftDay(-1));
   el("next-day").addEventListener("click", () => shiftDay(1));
+
+  el("sport").addEventListener("change", (e) => {
+    state.sport = e.target.value;
+    applyFilters();
+    renderLive().catch(() => {});
+  });
+
+  for (const chip of document.querySelectorAll("#phase-chips .chip")) {
+    chip.addEventListener("click", () => {
+      state.phase = chip.dataset.phase;
+      applyFilters();
+    });
+  }
+
+  el("clear-filters").addEventListener("click", () => {
+    state.sport = "";
+    state.phase = "all";
+    el("sport").value = "";
+    applyFilters();
+    renderLive().catch(() => {});
+  });
 
   renderTally().catch(() => {});
   renderLive().catch(() => {});

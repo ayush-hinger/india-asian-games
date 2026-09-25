@@ -1,5 +1,6 @@
 import { config } from "../config.ts";
 import { todayJst } from "../domain/time.ts";
+import type { Session } from "../domain/types.ts";
 import type { Store } from "../store/index.ts";
 import type { SseHub } from "./sse.ts";
 
@@ -24,20 +25,44 @@ export const routes = {
     };
   },
 
-  /** The tracked country's schedule for one competition day (JST calendar). */
+  /**
+   * The tracked country's schedule for one competition day (JST calendar).
+   *
+   * Filters: `sport` (a discipline code), `status` (one or more normalized status
+   * values, comma-separated) and `live=1`. They compose, so
+   * `?sport=HOC&live=1` is "hockey, in progress".
+   */
   async schedule(ctx: RouteContext, params: URLSearchParams) {
     const date = params.get("date") ?? todayJst();
-    const sessions = await ctx.store.getSessions({
+    const sport = params.get("sport") ?? undefined;
+
+    const all = await ctx.store.getSessions({
       competitionDate: date,
       onlyTracked: true,
-      sportCode: params.get("sport") ?? undefined,
+      sportCode: sport,
     });
-    return { date, count: sessions.length, sessions };
+
+    const sessions = applyFilters(all, params);
+
+    return {
+      date,
+      sport: sport ?? null,
+      count: sessions.length,
+      /** Total before `status`/`live` were applied, so a UI can show "3 of 20". */
+      totalForDay: all.length,
+      /** Sports actually on the schedule that day, for populating a filter. */
+      sports: summarizeSports(all),
+      sessions,
+    };
   },
 
   /** Sessions in progress right now, each with its current scoreboard. */
-  async live(ctx: RouteContext) {
-    const sessions = await ctx.store.getSessions({ onlyTracked: true, onlyLive: true });
+  async live(ctx: RouteContext, params: URLSearchParams) {
+    const sessions = await ctx.store.getSessions({
+      onlyTracked: true,
+      onlyLive: true,
+      sportCode: params.get("sport") ?? undefined,
+    });
     const withResults = await Promise.all(
       sessions.map(async (session) => ({
         session,
@@ -119,3 +144,35 @@ export const routes = {
     };
   },
 };
+
+/**
+ * Group sessions by sport with counts, so a client can build a sport filter that
+ * only offers sports which actually have something on that day.
+ */
+function summarizeSports(sessions: Session[]): { code: string; name: string; count: number }[] {
+  const seen = new Map<string, { code: string; name: string; count: number }>();
+  for (const s of sessions) {
+    const entry = seen.get(s.sportCode);
+    if (entry) entry.count += 1;
+    else seen.set(s.sportCode, { code: s.sportCode, name: s.sportName || s.sportCode, count: 1 });
+  }
+  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function applyFilters(sessions: Session[], params: URLSearchParams): Session[] {
+  let out = sessions;
+
+  if (params.get("live") === "1") {
+    // `intermediate` means partial results posted mid-session, so it counts as
+    // in progress even when the upstream IsLive flag has not been set.
+    out = out.filter((s) => s.isLive || s.status === "intermediate");
+  }
+
+  const status = params.get("status");
+  if (status) {
+    const wanted = new Set(status.split(",").map((v) => v.trim()).filter(Boolean));
+    out = out.filter((s) => wanted.has(s.status));
+  }
+
+  return out;
+}

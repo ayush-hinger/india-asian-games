@@ -40,6 +40,18 @@
         <button id="next-day" type="button" aria-label="Next day">›</button>
       </div>
     </div>
+    <div class="filters" role="group" aria-label="Filter sessions">
+      <div class="chips" id="phase-chips">
+        <button type="button" class="chip is-on" data-phase="all">All</button>
+        <button type="button" class="chip" data-phase="live">Live</button>
+        <button type="button" class="chip" data-phase="upcoming">Upcoming</button>
+        <button type="button" class="chip" data-phase="done">Finished</button>
+      </div>
+      <label class="sr-only" for="sport">Sport</label>
+      <select id="sport"><option value="">All sports</option></select>
+      <button type="button" id="clear-filters" class="chip chip-clear" hidden>Clear</button>
+    </div>
+    <p class="filter-count" id="filter-count"></p>
     <div id="schedule" class="list"><div class="empty">Loading…</div></div>
   </section>
 

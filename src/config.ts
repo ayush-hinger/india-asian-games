@@ -1,7 +1,8 @@
 const env = (k: string, fallback?: string): string => {
   const v = process.env[k];
   if (v === undefined || v === "") {
-    if (fallback === undefined) throw new Error(`Missing required env var ${k}`);
+    if (fallback === undefined)
+      throw new Error(`Missing required env var ${k}`);
     return fallback;
   }
   return v;
@@ -9,14 +10,17 @@ const env = (k: string, fallback?: string): string => {
 
 export const config = {
   /** Upstream results backend. Scope is appended per request (ALL or a discipline code). */
-  sourceRoot: env("AG_SOURCE_ROOT", "https://back.results.asiangames2026.org/s/AG2026/en"),
+  sourceRoot: env(
+    "AG_SOURCE_ROOT",
+    "https://back.results.asiangames2026.org/s/AG2026/en",
+  ),
   /** The origin lock upstream enforces; requests without it are rejected. */
   sourceOrigin: "https://results.asiangames2026.org",
   contact: env("AG_CONTACT", "unset@example.com"),
 
   country: env("COUNTRY", "IND"),
 
-  port: Number(env("PORT", "8080")),
+  port: Number(env("PORT", "3000")),
 
   store: env("STORE", "sqlite") as "sqlite" | "postgres",
   sqlitePath: env("SQLITE_PATH", "./data/tracker.db"),
@@ -37,7 +41,10 @@ export const config = {
     enabled: env("REDDIT_ENABLED", "1") !== "0",
     subreddit: env("REDDIT_SUBREDDIT", "IndianSports"),
     /** Matches the community's daily Asian Games megathread slug. */
-    threadPattern: new RegExp(env("REDDIT_THREAD_PATTERN", "asian_games_2026_day_\\d+"), "i"),
+    threadPattern: new RegExp(
+      env("REDDIT_THREAD_PATTERN", "asian_games_2026_day_\\d+"),
+      "i",
+    ),
     /** Pin a specific thread instead of auto-discovering one. */
     threadUrl: process.env.REDDIT_THREAD_URL,
     /** The megathread changes once a day; discovery does not need to be frequent. */
