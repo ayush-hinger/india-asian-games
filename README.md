@@ -203,6 +203,13 @@ LOG_LEVEL=debug npm start 2>&1 | grep 'schema drift'
 
 ---
 
+## Deploying
+
+See [docs/deploy-render.md](docs/deploy-render.md) for Render, including the free-plan
+spin-down caveat (a free service stops polling after 15 minutes of no traffic) and the
+persistent-storage options. The repo carries a `render.yaml` blueprint, so the deploy
+is: push to GitHub → New → Blueprint → set `AG_CONTACT` → Apply.
+
 ## Source notes
 
 [docs/api-notes.md](docs/api-notes.md) documents the upstream API: the transport, the
