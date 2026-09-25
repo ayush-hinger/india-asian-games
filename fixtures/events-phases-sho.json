@@ -1,0 +1,730 @@
+{
+ "_fixture": {
+  "scope": "SHO",
+  "path": "/events/phases",
+  "url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/events/phases",
+  "capturedAt": "2026-09-20T05:41:37.760Z"
+ },
+ "data": [
+  {
+   "Disc": "SHO",
+   "EvKey": "M.ARM---------------",
+   "Desc": "10m Air Rifle Men Individual",
+   "DescS": "10m Air Rifle Men Individual",
+   "Order": 1,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.ARM---------------.QUAL",
+     "EvKey": "M.ARM---------------",
+     "Order": 1,
+     "Desc": "10m Air Rifle Men Individual Qualification",
+     "DescS": "10m Air Rifle Men Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "M.ARM---------------.FNL-",
+     "EvKey": "M.ARM---------------",
+     "Order": 2,
+     "Desc": "10m Air Rifle Men Individual Final",
+     "DescS": "10m Air Rifle Men Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.R3PM--------------",
+   "Desc": "50m Rifle 3 Positions Men Individual",
+   "DescS": "50m Rifle 3 Positions Men Individual",
+   "Order": 2,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.R3PM--------------.QUAL",
+     "EvKey": "M.R3PM--------------",
+     "Order": 2,
+     "Desc": "50m Rifle 3 Positions Men Individual Qualification",
+     "DescS": "50m Rifle 3 Positions Men Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "M.R3PM--------------.FNL-",
+     "EvKey": "M.R3PM--------------",
+     "Order": 3,
+     "Desc": "50m Rifle 3 Positions Men Individual Final",
+     "DescS": "50m Rifle 3 Positions Men Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.APM---------------",
+   "Desc": "10m Air Pistol Men Individual",
+   "DescS": "10m Air Pistol Men Individual",
+   "Order": 3,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.APM---------------.QUAL",
+     "EvKey": "M.APM---------------",
+     "Order": 1,
+     "Desc": "10m Air Pistol Men Individual Qualification",
+     "DescS": "10m Air Pistol Men Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "M.APM---------------.FNL-",
+     "EvKey": "M.APM---------------",
+     "Order": 2,
+     "Desc": "10m Air Pistol Men Individual Final",
+     "DescS": "10m Air Pistol Men Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.RFPM--------------",
+   "Desc": "25m Rapid Fire Pistol Men Individual",
+   "DescS": "25m Rapid Fire Pistol Men Individual",
+   "Order": 4,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.RFPM--------------.QUAL",
+     "EvKey": "M.RFPM--------------",
+     "Order": 1,
+     "Desc": "25m Rapid Fire Pistol Men Individual Qualification",
+     "DescS": "25m Rapid Fire Pistol Men Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "M.RFPM--------------.FNL-",
+     "EvKey": "M.RFPM--------------",
+     "Order": 2,
+     "Desc": "25m Rapid Fire Pistol Men Individual Final",
+     "DescS": "25m Rapid Fire Pistol Men Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.TRM---------------",
+   "Desc": "Trap Men Individual",
+   "DescS": "Trap Men Individual",
+   "Order": 5,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.TRM---------------.QUAL",
+     "EvKey": "M.TRM---------------",
+     "Order": 1,
+     "Desc": "Trap Men Individual Qualification",
+     "DescS": "Trap Men Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "M.TRM---------------.FNL-",
+     "EvKey": "M.TRM---------------",
+     "Order": 2,
+     "Desc": "Trap Men Individual Final",
+     "DescS": "Trap Men Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.SKM---------------",
+   "Desc": "Skeet Men Individual",
+   "DescS": "Skeet Men Individual",
+   "Order": 6,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.SKM---------------.QUAL",
+     "EvKey": "M.SKM---------------",
+     "Order": 1,
+     "Desc": "Skeet Men Individual Qualification",
+     "DescS": "Skeet Men Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "M.SKM---------------.FNL-",
+     "EvKey": "M.SKM---------------",
+     "Order": 2,
+     "Desc": "Skeet Men Individual Final",
+     "DescS": "Skeet Men Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.ARTM--------------",
+   "Desc": "10m Air Rifle Men Team",
+   "DescS": "10m Air Rifle Men Team",
+   "Order": 7,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.ARTM--------------.FNL-",
+     "EvKey": "M.ARTM--------------",
+     "Order": 2,
+     "Desc": "10m Air Rifle Men Team Final",
+     "DescS": "10m Air Rifle Men Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.R3PTM-------------",
+   "Desc": "50m Rifle 3 Positions Men Team",
+   "DescS": "50m Rifle 3 Positions Men Team",
+   "Order": 8,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.R3PTM-------------.FNL-",
+     "EvKey": "M.R3PTM-------------",
+     "Order": 3,
+     "Desc": "50m Rifle 3 Positions Men Team Final",
+     "DescS": "50m Rifle 3 Positions Men Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.APTM--------------",
+   "Desc": "10m Air Pistol Men Team",
+   "DescS": "10m Air Pistol Men Team",
+   "Order": 9,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.APTM--------------.FNL-",
+     "EvKey": "M.APTM--------------",
+     "Order": 2,
+     "Desc": "10m Air Pistol Men Team Final",
+     "DescS": "10m Air Pistol Men Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.RFPTM-------------",
+   "Desc": "25m Rapid Fire Pistol Men Team",
+   "DescS": "25m Rapid Fire Pistol Men Team",
+   "Order": 10,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.RFPTM-------------.FNL-",
+     "EvKey": "M.RFPTM-------------",
+     "Order": 2,
+     "Desc": "25m Rapid Fire Pistol Men Team Final",
+     "DescS": "25m Rapid Fire Pistol Men Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.TRTM--------------",
+   "Desc": "Trap Men Team",
+   "DescS": "Trap Men Team",
+   "Order": 11,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.TRTM--------------.FNL-",
+     "EvKey": "M.TRTM--------------",
+     "Order": 2,
+     "Desc": "Trap Men Team Final",
+     "DescS": "Trap Men Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "M.SKTM--------------",
+   "Desc": "Skeet Men Team",
+   "DescS": "Skeet Men Team",
+   "Order": 12,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "M.SKTM--------------.FNL-",
+     "EvKey": "M.SKTM--------------",
+     "Order": 2,
+     "Desc": "Skeet Men Team Final",
+     "DescS": "Skeet Men Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.ARW---------------",
+   "Desc": "10m Air Rifle Women Individual",
+   "DescS": "10m Air Rifle Women Individual",
+   "Order": 13,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.ARW---------------.QUAL",
+     "EvKey": "W.ARW---------------",
+     "Order": 1,
+     "Desc": "10m Air Rifle Women Individual Qualification",
+     "DescS": "10m Air Rifle Women Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "W.ARW---------------.FNL-",
+     "EvKey": "W.ARW---------------",
+     "Order": 2,
+     "Desc": "10m Air Rifle Women Individual Final",
+     "DescS": "10m Air Rifle Women Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.R3PW--------------",
+   "Desc": "50m Rifle 3 Positions Women Individual",
+   "DescS": "50m Rifle 3 Positions Women Individual",
+   "Order": 14,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.R3PW--------------.QUAL",
+     "EvKey": "W.R3PW--------------",
+     "Order": 2,
+     "Desc": "50m Rifle 3 Positions Women Individual Qualification",
+     "DescS": "50m Rifle 3 Positions Women Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "W.R3PW--------------.FNL-",
+     "EvKey": "W.R3PW--------------",
+     "Order": 3,
+     "Desc": "50m Rifle 3 Positions Women Individual Final",
+     "DescS": "50m Rifle 3 Positions Women Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.APW---------------",
+   "Desc": "10m Air Pistol Women Individual",
+   "DescS": "10m Air Pistol Women Individual",
+   "Order": 15,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.APW---------------.QUAL",
+     "EvKey": "W.APW---------------",
+     "Order": 1,
+     "Desc": "10m Air Pistol Women Individual Qualification",
+     "DescS": "10m Air Pistol Women Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "W.APW---------------.FNL-",
+     "EvKey": "W.APW---------------",
+     "Order": 2,
+     "Desc": "10m Air Pistol Women Individual Final",
+     "DescS": "10m Air Pistol Women Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.SPW---------------",
+   "Desc": "25m Pistol Women Individual",
+   "DescS": "25m Pistol Women Individual",
+   "Order": 16,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.SPW---------------.QUAL",
+     "EvKey": "W.SPW---------------",
+     "Order": 1,
+     "Desc": "25m Pistol Women Individual Qualification",
+     "DescS": "25m Pistol Women Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "W.SPW---------------.FNL-",
+     "EvKey": "W.SPW---------------",
+     "Order": 2,
+     "Desc": "25m Pistol Women Individual Final",
+     "DescS": "25m Pistol Women Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.TRW---------------",
+   "Desc": "Trap Women Individual",
+   "DescS": "Trap Women Individual",
+   "Order": 17,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.TRW---------------.QUAL",
+     "EvKey": "W.TRW---------------",
+     "Order": 1,
+     "Desc": "Trap Women Individual Qualification",
+     "DescS": "Trap Women Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "W.TRW---------------.FNL-",
+     "EvKey": "W.TRW---------------",
+     "Order": 2,
+     "Desc": "Trap Women Individual Final",
+     "DescS": "Trap Women Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.SKW---------------",
+   "Desc": "Skeet Women Individual",
+   "DescS": "Skeet Women Individual",
+   "Order": 18,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.SKW---------------.QUAL",
+     "EvKey": "W.SKW---------------",
+     "Order": 1,
+     "Desc": "Skeet Women Individual Qualification",
+     "DescS": "Skeet Women Individual Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "W.SKW---------------.FNL-",
+     "EvKey": "W.SKW---------------",
+     "Order": 2,
+     "Desc": "Skeet Women Individual Final",
+     "DescS": "Skeet Women Individual Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.ARTW--------------",
+   "Desc": "10m Air Rifle Women Team",
+   "DescS": "10m Air Rifle Women Team",
+   "Order": 19,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.ARTW--------------.FNL-",
+     "EvKey": "W.ARTW--------------",
+     "Order": 2,
+     "Desc": "10m Air Rifle Women Team Final",
+     "DescS": "10m Air Rifle Women Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.R3PTW-------------",
+   "Desc": "50m Rifle 3 Positions Women Team",
+   "DescS": "50m Rifle 3 Positions Women Team",
+   "Order": 20,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.R3PTW-------------.FNL-",
+     "EvKey": "W.R3PTW-------------",
+     "Order": 3,
+     "Desc": "50m Rifle 3 Positions Women Team Final",
+     "DescS": "50m Rifle 3 Positions Women Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.APTW--------------",
+   "Desc": "10m Air Pistol Women Team",
+   "DescS": "10m Air Pistol Women Team",
+   "Order": 21,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.APTW--------------.FNL-",
+     "EvKey": "W.APTW--------------",
+     "Order": 2,
+     "Desc": "10m Air Pistol Women Team Final",
+     "DescS": "10m Air Pistol Women Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.SPTW--------------",
+   "Desc": "25m Pistol Women Team",
+   "DescS": "25m Pistol Women Team",
+   "Order": 22,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.SPTW--------------.FNL-",
+     "EvKey": "W.SPTW--------------",
+     "Order": 2,
+     "Desc": "25m Pistol Women Team Final",
+     "DescS": "25m Pistol Women Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.TRTW--------------",
+   "Desc": "Trap Women Team",
+   "DescS": "Trap Women Team",
+   "Order": 23,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.TRTW--------------.FNL-",
+     "EvKey": "W.TRTW--------------",
+     "Order": 2,
+     "Desc": "Trap Women Team Final",
+     "DescS": "Trap Women Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "W.SKTW--------------",
+   "Desc": "Skeet Women Team",
+   "DescS": "Skeet Women Team",
+   "Order": 24,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "W.SKTW--------------.FNL-",
+     "EvKey": "W.SKTW--------------",
+     "Order": 2,
+     "Desc": "Skeet Women Team Final",
+     "DescS": "Skeet Women Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "X.ARMT--------------",
+   "Desc": "10m Air Rifle Mixed Team",
+   "DescS": "10m Air Rifle Mixed Team",
+   "Order": 25,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "X.ARMT--------------.QUAL",
+     "EvKey": "X.ARMT--------------",
+     "Order": 1,
+     "Desc": "10m Air Rifle Mixed Team Qualification",
+     "DescS": "10m Air Rifle Mixed Team Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "X.ARMT--------------.FNL-",
+     "EvKey": "X.ARMT--------------",
+     "Order": 2,
+     "Desc": "10m Air Rifle Mixed Team Final",
+     "DescS": "10m Air Rifle Mixed Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "X.APMT--------------",
+   "Desc": "10m Air Pistol Mixed Team",
+   "DescS": "10m Air Pistol Mixed Team",
+   "Order": 26,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "X.APMT--------------.QUAL",
+     "EvKey": "X.APMT--------------",
+     "Order": 1,
+     "Desc": "10m Air Pistol Mixed Team Qualification",
+     "DescS": "10m Air Pistol Mixed Team Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "X.APMT--------------.FNL-",
+     "EvKey": "X.APMT--------------",
+     "Order": 2,
+     "Desc": "10m Air Pistol Mixed Team Final",
+     "DescS": "10m Air Pistol Mixed Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "X.SKMT--------------",
+   "Desc": "Skeet Mixed Team",
+   "DescS": "Skeet Mixed Team",
+   "Order": 27,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "X.SKMT--------------.QUAL",
+     "EvKey": "X.SKMT--------------",
+     "Order": 1,
+     "Desc": "Skeet Mixed Team Qualification",
+     "DescS": "Skeet Mixed Team Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "X.SKMT--------------.FNL-",
+     "EvKey": "X.SKMT--------------",
+     "Order": 2,
+     "Desc": "Skeet Mixed Team Final",
+     "DescS": "Skeet Mixed Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Disc": "SHO",
+   "EvKey": "X.TRMT--------------",
+   "Desc": "Trap Mixed Team",
+   "DescS": "Trap Mixed Team",
+   "Order": 28,
+   "Extensions": [],
+   "Phases": [
+    {
+     "Key": "X.TRMT--------------.QUAL",
+     "EvKey": "X.TRMT--------------",
+     "Order": 1,
+     "Desc": "Trap Mixed Team Qualification",
+     "DescS": "Trap Mixed Team Qualification",
+     "DescA": "Qualification",
+     "DescB": "Qualification",
+     "Extensions": []
+    },
+    {
+     "Key": "X.TRMT--------------.FNL-",
+     "EvKey": "X.TRMT--------------",
+     "Order": 2,
+     "Desc": "Trap Mixed Team Final",
+     "DescS": "Trap Mixed Team Final",
+     "DescA": "Final",
+     "DescB": "Final",
+     "Extensions": []
+    }
+   ]
+  }
+ ]
+}

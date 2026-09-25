@@ -1,0 +1,53 @@
+# Render Blueprint for the India @ AG2026 tracker.
+#
+# Deploys a single web service that serves the dashboard and API *and* runs the
+# poller in-process. There is no separate worker: Render's Background Workers are
+# paid-only, and the poller is light enough to sit beside the HTTP server.
+#
+# This defaults to the free plan so it deploys without a card. Read the spin-down
+# caveat in docs/deploy-render.md before relying on it during live events.
+
+services:
+  - type: web
+    name: india-ag2026-tracker
+    runtime: node
+    plan: free
+    # Closest region to India; change if you care more about proximity to Japan.
+    region: singapore
+
+    # Zero runtime dependencies, so this installs nothing and just validates the
+    # lockfile. TypeScript is executed directly by Node 24 - there is no build step.
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+
+    healthCheckPath: /api/health
+    autoDeploy: true
+
+    envVars:
+      # Sent as the contact address in the User-Agent on every upstream request.
+      # sync: false means Render prompts for it instead of storing it in git.
+      - key: AG_CONTACT
+        sync: false
+
+      - key: COUNTRY
+        value: IND
+
+      - key: STORE
+        value: sqlite
+      # On the free plan the filesystem is wiped on every deploy, restart and
+      # spin-down. The poller re-primes from upstream in ~15s on boot, so the
+      # dashboard recovers by itself; only result history is lost. Attach a disk
+      # on a paid plan to keep it (see docs/deploy-render.md).
+      - key: SQLITE_PATH
+        value: ./data/tracker.db
+
+      - key: POLLER_ENABLED
+        value: "1"
+
+      - key: REDDIT_ENABLED
+        value: "1"
+      - key: REDDIT_SUBREDDIT
+        value: IndianSports
+
+      - key: LOG_LEVEL
+        value: info

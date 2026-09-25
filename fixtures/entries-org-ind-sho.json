@@ -1,0 +1,2286 @@
+{
+ "_fixture": {
+  "scope": "SHO",
+  "path": "/entries/org/IND",
+  "url": "https://back.results.asiangames2026.org/s/AG2026/en/SHO/entries/org/IND",
+  "capturedAt": "2026-09-20T05:41:36.714Z"
+ },
+ "data": {
+  "Org": "IND",
+  "OrgDesc": "India",
+  "Disc": "SHO",
+  "DiscDesc": "Shooting",
+  "Events": [
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.ARM---------------",
+    "EvDesc": "10m Air Rifle Men Individual",
+    "EvDescS": "10m Air Rifle Men Individual",
+    "Order": 1,
+    "Partics": [
+     {
+      "Reg": "12403803",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2003-12-16",
+      "Name": "PATIL Rudrankksh Balasaheb",
+      "NameS": "PATIL RB",
+      "GivenName": "Rudrankksh Balasaheb",
+      "FamilyName": "PATIL",
+      "IFId": "SHINDM1612200301",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1080"
+     },
+     {
+      "Reg": "12831771",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2007-11-13",
+      "Name": "MANE Parth Rakesh",
+      "NameS": "MANE PR",
+      "GivenName": "Parth Rakesh",
+      "FamilyName": "MANE",
+      "IFId": "SHINDM1311200701",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1090"
+     },
+     {
+      "Reg": "6256891",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2005-09-29",
+      "Name": "DHILLON Himanshu",
+      "NameS": "DHILLON H",
+      "GivenName": "Himanshu",
+      "FamilyName": "DHILLON",
+      "IFId": "SHINDM2909200501",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1099"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.R3PM--------------",
+    "EvDesc": "50m Rifle 3 Positions Men Individual",
+    "EvDescS": "50m Rifle 3 Positions Men Individual",
+    "Order": 2,
+    "Partics": [
+     {
+      "Reg": "11687574",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2000-01-21",
+      "Name": "KUMAR Niraj",
+      "NameS": "KUMAR N",
+      "GivenName": "Niraj",
+      "FamilyName": "KUMAR",
+      "IFId": "SHINDM1101198101",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1077"
+     },
+     {
+      "Reg": "12403803",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2003-12-16",
+      "Name": "PATIL Rudrankksh Balasaheb",
+      "NameS": "PATIL RB",
+      "GivenName": "Rudrankksh Balasaheb",
+      "FamilyName": "PATIL",
+      "IFId": "SHINDM1612200301",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1080"
+     },
+     {
+      "Reg": "12408255",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2001-02-03",
+      "Name": "TOMAR Aishwary Pratap Singh",
+      "NameS": "TOMAR APS",
+      "GivenName": "Aishwary Pratap Singh",
+      "FamilyName": "TOMAR",
+      "IFId": "SHINDM0302200101",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1081"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.APM---------------",
+    "EvDesc": "10m Air Pistol Men Individual",
+    "EvDescS": "10m Air Pistol Men Individual",
+    "Order": 3,
+    "Partics": [
+     {
+      "Reg": "11923612",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2003-08-22",
+      "Name": "KAMALJEET",
+      "NameS": "KAMALJEET",
+      "GivenName": "",
+      "FamilyName": "KAMALJEET",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1079"
+     },
+     {
+      "Reg": "12755690",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "1999-11-01",
+      "Name": "UCHAGANVE Kedarling Balakrishna",
+      "NameS": "UCHAGANVE KB",
+      "GivenName": "Kedarling Balakrishna",
+      "FamilyName": "UCHAGANVE",
+      "IFId": "SHINDM0111199901",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1089"
+     },
+     {
+      "Reg": "13163886",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2001-08-13",
+      "Name": "BHARADWAJ Aakash",
+      "NameS": "BHARADWAJ A",
+      "GivenName": "Aakash",
+      "FamilyName": "BHARADWAJ",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1097"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.RFPM--------------",
+    "EvDesc": "25m Rapid Fire Pistol Men Individual",
+    "EvDescS": "25m Rapid Fire Pistol Men Individual",
+    "Order": 4,
+    "Partics": [
+     {
+      "Reg": "6264721",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2002-09-26",
+      "Name": "ANISH",
+      "NameS": "ANISH",
+      "GivenName": "",
+      "FamilyName": "ANISH",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1100"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.TRM---------------",
+    "EvDesc": "Trap Men Individual",
+    "EvDescS": "Trap Men Individual",
+    "Order": 5,
+    "Partics": [
+     {
+      "Reg": "12559510",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "1991-01-29",
+      "Name": "CHENAI Kynan",
+      "NameS": "CHENAI K",
+      "GivenName": "Kynan",
+      "FamilyName": "CHENAI",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1084"
+     },
+     {
+      "Reg": "12561402",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2002-01-02",
+      "Name": "BHARADWAJ Shapath",
+      "NameS": "BHARADWAJ S",
+      "GivenName": "Shapath",
+      "FamilyName": "BHARADWAJ",
+      "IFId": "SHINDM0201200201",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1085"
+     },
+     {
+      "Reg": "12561712",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "1999-12-15",
+      "Name": "RIZVI Ahvar",
+      "NameS": "RIZVI A",
+      "GivenName": "Ahvar",
+      "FamilyName": "RIZVI",
+      "IFId": "SHINDM1512199901",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1086"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.SKM---------------",
+    "EvDesc": "Skeet Men Individual",
+    "EvDescS": "Skeet Men Individual",
+    "Order": 6,
+    "Partics": [
+     {
+      "Reg": "11724392",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "2003-07-08",
+      "Name": "GILL Bhavtegh Singh",
+      "NameS": "GILL BS",
+      "GivenName": "Bhavtegh Singh",
+      "FamilyName": "GILL",
+      "IFId": "SHINDM0807200301",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1078"
+     },
+     {
+      "Reg": "6408134",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "1998-07-01",
+      "Name": "NARUKA Anant Jeet Singh",
+      "NameS": "NARUKA AJS",
+      "GivenName": "Anant Jeet Singh",
+      "FamilyName": "NARUKA",
+      "IFId": "SHINDM0107199801",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1103"
+     },
+     {
+      "Reg": "6408794",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "M",
+      "BirthDateRaw": "1975-11-02",
+      "Name": "KHAN Mairaj Ahmad",
+      "NameS": "KHAN MA",
+      "GivenName": "Mairaj Ahmad",
+      "FamilyName": "KHAN",
+      "IFId": "SHINDM0211197501",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1104"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.ARTM--------------",
+    "EvDesc": "10m Air Rifle Men Team",
+    "EvDescS": "10m Air Rifle Men Team",
+    "Order": 7,
+    "Partics": [
+     {
+      "Reg": "SHOMARTM-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "M",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12403803",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1080",
+        "Name": "PATIL Rudrankksh Balasaheb",
+        "BirthDateRaw": "2003-12-16",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12831771",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1090",
+        "Name": "MANE Parth Rakesh",
+        "BirthDateRaw": "2007-11-13",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6256891",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 3,
+        "Bib": "1099",
+        "Name": "DHILLON Himanshu",
+        "BirthDateRaw": "2005-09-29",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.R3PTM-------------",
+    "EvDesc": "50m Rifle 3 Positions Men Team",
+    "EvDescS": "50m Rifle 3 Positions Men Team",
+    "Order": 8,
+    "Partics": [
+     {
+      "Reg": "SHOMR3PTM------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "M",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "11687574",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1077",
+        "Name": "KUMAR Niraj",
+        "BirthDateRaw": "2000-01-21",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12403803",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1080",
+        "Name": "PATIL Rudrankksh Balasaheb",
+        "BirthDateRaw": "2003-12-16",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12408255",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 3,
+        "Bib": "1081",
+        "Name": "TOMAR Aishwary Pratap Singh",
+        "BirthDateRaw": "2001-02-03",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.APTM--------------",
+    "EvDesc": "10m Air Pistol Men Team",
+    "EvDescS": "10m Air Pistol Men Team",
+    "Order": 9,
+    "Partics": [
+     {
+      "Reg": "SHOMAPTM-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "M",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "11923612",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1079",
+        "Name": "KAMALJEET",
+        "BirthDateRaw": "2003-08-22",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12755690",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1089",
+        "Name": "UCHAGANVE Kedarling Balakrishna",
+        "BirthDateRaw": "1999-11-01",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "13163886",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 3,
+        "Bib": "1097",
+        "Name": "BHARADWAJ Aakash",
+        "BirthDateRaw": "2001-08-13",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.TRTM--------------",
+    "EvDesc": "Trap Men Team",
+    "EvDescS": "Trap Men Team",
+    "Order": 11,
+    "Partics": [
+     {
+      "Reg": "SHOMTRTM-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "M",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12559510",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1084",
+        "Name": "CHENAI Kynan",
+        "BirthDateRaw": "1991-01-29",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12561402",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1085",
+        "Name": "BHARADWAJ Shapath",
+        "BirthDateRaw": "2002-01-02",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12561712",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 3,
+        "Bib": "1086",
+        "Name": "RIZVI Ahvar",
+        "BirthDateRaw": "1999-12-15",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "M.SKTM--------------",
+    "EvDesc": "Skeet Men Team",
+    "EvDescS": "Skeet Men Team",
+    "Order": 12,
+    "Partics": [
+     {
+      "Reg": "SHOMSKTM-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "M",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "11724392",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1078",
+        "Name": "GILL Bhavtegh Singh",
+        "BirthDateRaw": "2003-07-08",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6408134",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1103",
+        "Name": "NARUKA Anant Jeet Singh",
+        "BirthDateRaw": "1998-07-01",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6408794",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 3,
+        "Bib": "1104",
+        "Name": "KHAN Mairaj Ahmad",
+        "BirthDateRaw": "1975-11-02",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.ARW---------------",
+    "EvDesc": "10m Air Rifle Women Individual",
+    "EvDescS": "10m Air Rifle Women Individual",
+    "Order": 13,
+    "Partics": [
+     {
+      "Reg": "12640502",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "1999-08-02",
+      "Name": "VALARIVAN Elavenil",
+      "NameS": "VALARIVAN E",
+      "GivenName": "Elavenil",
+      "FamilyName": "VALARIVAN",
+      "IFId": "SHINDW0208199901",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1088"
+     },
+     {
+      "Reg": "12901175",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "1999-06-20",
+      "Name": "KOCHALUMKAL VINOD Vidarsa",
+      "NameS": "KOCHALUMKAL VINOD V",
+      "GivenName": "Vidarsa",
+      "FamilyName": "KOCHALUMKAL VINOD",
+      "IFId": "SHINDW2006199901",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1093"
+     },
+     {
+      "Reg": "6510298",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2002-09-18",
+      "Name": "MASKAR Sonam Uttam",
+      "NameS": "MASKAR SU",
+      "GivenName": "Sonam Uttam",
+      "FamilyName": "MASKAR",
+      "IFId": "SHINDW1809200201",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1106"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.R3PW--------------",
+    "EvDesc": "50m Rifle 3 Positions Women Individual",
+    "EvDescS": "50m Rifle 3 Positions Women Individual",
+    "Order": 14,
+    "Partics": [
+     {
+      "Reg": "12491444",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2002-03-07",
+      "Name": "CHOUKSEY Ashi",
+      "NameS": "CHOUKSEY A",
+      "GivenName": "Ashi",
+      "FamilyName": "CHOUKSEY",
+      "IFId": "SHINDW0703200201",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1082"
+     },
+     {
+      "Reg": "12901175",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "1999-06-20",
+      "Name": "KOCHALUMKAL VINOD Vidarsa",
+      "NameS": "KOCHALUMKAL VINOD V",
+      "GivenName": "Vidarsa",
+      "FamilyName": "KOCHALUMKAL VINOD",
+      "IFId": "SHINDW2006199901",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1093"
+     },
+     {
+      "Reg": "6344776",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2008-04-25",
+      "Name": "SEN Tilottama",
+      "NameS": "SEN T",
+      "GivenName": "Tilottama",
+      "FamilyName": "SEN",
+      "IFId": "SHINDW2504200801",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1102"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.APW---------------",
+    "EvDesc": "10m Air Pistol Women Individual",
+    "EvDescS": "10m Air Pistol Women Individual",
+    "Order": 15,
+    "Partics": [
+     {
+      "Reg": "12855344",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2005-01-01",
+      "Name": "SINGH Esha",
+      "NameS": "SINGH E",
+      "GivenName": "Esha",
+      "FamilyName": "SINGH",
+      "IFId": "SHINDW0101200501",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1091"
+     },
+     {
+      "Reg": "4635553",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2006-04-28",
+      "Name": "SURUCHI Inder Singh",
+      "NameS": "SURUCHI Inder Singh",
+      "GivenName": "Inder Singh",
+      "FamilyName": "SURUCHI",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1098"
+     },
+     {
+      "Reg": "6281001",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2002-02-18",
+      "Name": "BHAKER Manu",
+      "NameS": "BHAKER M",
+      "GivenName": "Manu",
+      "FamilyName": "BHAKER",
+      "IFId": "SHINDW1802200201",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1101"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.SPW---------------",
+    "EvDesc": "25m Pistol Women Individual",
+    "EvDescS": "25m Pistol Women Individual",
+    "Order": 16,
+    "Partics": [
+     {
+      "Reg": "12855344",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2005-01-01",
+      "Name": "SINGH Esha",
+      "NameS": "SINGH E",
+      "GivenName": "Esha",
+      "FamilyName": "SINGH",
+      "IFId": "SHINDW0101200501",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1091"
+     },
+     {
+      "Reg": "12857510",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "1990-10-30",
+      "Name": "SARNOBAT Rahi",
+      "NameS": "SARNOBAT R",
+      "GivenName": "Rahi",
+      "FamilyName": "SARNOBAT",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1092"
+     },
+     {
+      "Reg": "6281001",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2002-02-18",
+      "Name": "BHAKER Manu",
+      "NameS": "BHAKER M",
+      "GivenName": "Manu",
+      "FamilyName": "BHAKER",
+      "IFId": "SHINDW1802200201",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1101"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.TRW---------------",
+    "EvDesc": "Trap Women Individual",
+    "EvDescS": "Trap Women Individual",
+    "Order": 17,
+    "Partics": [
+     {
+      "Reg": "12617084",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2003-09-27",
+      "Name": "AHLAWAT Aashima",
+      "NameS": "AHLAWAT A",
+      "GivenName": "Aashima",
+      "FamilyName": "AHLAWAT",
+      "IFId": "SHINDW2709200301",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1087"
+     },
+     {
+      "Reg": "13021576",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2000-05-25",
+      "Name": "NEERU",
+      "NameS": "NEERU",
+      "GivenName": "",
+      "FamilyName": "NEERU",
+      "IFId": "",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1095"
+     },
+     {
+      "Reg": "13031940",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "1999-07-15",
+      "Name": "KEER Manisha",
+      "NameS": "KEER M",
+      "GivenName": "Manisha",
+      "FamilyName": "KEER",
+      "IFId": "SHINDW1507199901",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1096"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.SKW---------------",
+    "EvDesc": "Skeet Women Individual",
+    "EvDescS": "Skeet Women Individual",
+    "Order": 18,
+    "Partics": [
+     {
+      "Reg": "12555924",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2001-11-30",
+      "Name": "DHALIWAL Parinaaz",
+      "NameS": "DHALIWAL P",
+      "GivenName": "Parinaaz",
+      "FamilyName": "DHALIWAL",
+      "IFId": "SHINDW3011200101",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1083"
+     },
+     {
+      "Reg": "12968556",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "1996-07-04",
+      "Name": "CHAUHAN Maheshwari",
+      "NameS": "CHAUHAN M",
+      "GivenName": "Maheshwari",
+      "FamilyName": "CHAUHAN",
+      "IFId": "SHINDW0407199601",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1094"
+     },
+     {
+      "Reg": "6411822",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": false,
+      "Extensions": [
+       {
+        "Type": "ENTRY",
+        "Code": "QUAL_TYPE",
+        "Pos": 0,
+        "Value": "",
+        "Extensions": []
+       },
+       {
+        "Type": "ENTRY",
+        "Code": "STANCE",
+        "Pos": 0,
+        "Value": "Regular",
+        "Extensions": []
+       }
+      ],
+      "Type": "A",
+      "MedClass": "",
+      "Gender": "W",
+      "BirthDateRaw": "2004-04-20",
+      "Name": "DHILLON Raiza",
+      "NameS": "DHILLON R",
+      "GivenName": "Raiza",
+      "FamilyName": "DHILLON",
+      "IFId": "SHINDW2004200401",
+      "Height": 0,
+      "Weight": 0,
+      "Bib": "1105"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.ARTW--------------",
+    "EvDesc": "10m Air Rifle Women Team",
+    "EvDescS": "10m Air Rifle Women Team",
+    "Order": 19,
+    "Partics": [
+     {
+      "Reg": "SHOWARTW-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "W",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12640502",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1088",
+        "Name": "VALARIVAN Elavenil",
+        "BirthDateRaw": "1999-08-02",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12901175",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1093",
+        "Name": "KOCHALUMKAL VINOD Vidarsa",
+        "BirthDateRaw": "1999-06-20",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6510298",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 3,
+        "Bib": "1106",
+        "Name": "MASKAR Sonam Uttam",
+        "BirthDateRaw": "2002-09-18",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.R3PTW-------------",
+    "EvDesc": "50m Rifle 3 Positions Women Team",
+    "EvDescS": "50m Rifle 3 Positions Women Team",
+    "Order": 20,
+    "Partics": [
+     {
+      "Reg": "SHOWR3PTW------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "W",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12491444",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1082",
+        "Name": "CHOUKSEY Ashi",
+        "BirthDateRaw": "2002-03-07",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12901175",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1093",
+        "Name": "KOCHALUMKAL VINOD Vidarsa",
+        "BirthDateRaw": "1999-06-20",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6344776",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 3,
+        "Bib": "1102",
+        "Name": "SEN Tilottama",
+        "BirthDateRaw": "2008-04-25",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.APTW--------------",
+    "EvDesc": "10m Air Pistol Women Team",
+    "EvDescS": "10m Air Pistol Women Team",
+    "Order": 21,
+    "Partics": [
+     {
+      "Reg": "SHOWAPTW-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "W",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12855344",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1091",
+        "Name": "SINGH Esha",
+        "BirthDateRaw": "2005-01-01",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "4635553",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1098",
+        "Name": "SURUCHI Inder Singh",
+        "BirthDateRaw": "2006-04-28",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6281001",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 3,
+        "Bib": "1101",
+        "Name": "BHAKER Manu",
+        "BirthDateRaw": "2002-02-18",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.SPTW--------------",
+    "EvDesc": "25m Pistol Women Team",
+    "EvDescS": "25m Pistol Women Team",
+    "Order": 22,
+    "Partics": [
+     {
+      "Reg": "SHOWSPTW-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "W",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12855344",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1091",
+        "Name": "SINGH Esha",
+        "BirthDateRaw": "2005-01-01",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12857510",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1092",
+        "Name": "SARNOBAT Rahi",
+        "BirthDateRaw": "1990-10-30",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6281001",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 3,
+        "Bib": "1101",
+        "Name": "BHAKER Manu",
+        "BirthDateRaw": "2002-02-18",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.TRTW--------------",
+    "EvDesc": "Trap Women Team",
+    "EvDescS": "Trap Women Team",
+    "Order": 23,
+    "Partics": [
+     {
+      "Reg": "SHOWTRTW-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "W",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12617084",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1087",
+        "Name": "AHLAWAT Aashima",
+        "BirthDateRaw": "2003-09-27",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "13021576",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1095",
+        "Name": "NEERU",
+        "BirthDateRaw": "2000-05-25",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "13031940",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 3,
+        "Bib": "1096",
+        "Name": "KEER Manisha",
+        "BirthDateRaw": "1999-07-15",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "W.SKTW--------------",
+    "EvDesc": "Skeet Women Team",
+    "EvDescS": "Skeet Women Team",
+    "Order": 24,
+    "Partics": [
+     {
+      "Reg": "SHOWSKTW-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "W",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12555924",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1083",
+        "Name": "DHALIWAL Parinaaz",
+        "BirthDateRaw": "2001-11-30",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12968556",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1094",
+        "Name": "CHAUHAN Maheshwari",
+        "BirthDateRaw": "1996-07-04",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6411822",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 3,
+        "Bib": "1105",
+        "Name": "DHILLON Raiza",
+        "BirthDateRaw": "2004-04-20",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "X.ARMT--------------",
+    "EvDesc": "10m Air Rifle Mixed Team",
+    "EvDescS": "10m Air Rifle Mixed Team",
+    "Order": 25,
+    "Partics": [
+     {
+      "Reg": "SHOXARMT-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "X",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12640502",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1088",
+        "Name": "VALARIVAN Elavenil",
+        "BirthDateRaw": "1999-08-02",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "12831771",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1090",
+        "Name": "MANE Parth Rakesh",
+        "BirthDateRaw": "2007-11-13",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "X.APMT--------------",
+    "EvDesc": "10m Air Pistol Mixed Team",
+    "EvDescS": "10m Air Pistol Mixed Team",
+    "Order": 26,
+    "Partics": [
+     {
+      "Reg": "SHOXAPMT-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "X",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12755690",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1089",
+        "Name": "UCHAGANVE Kedarling Balakrishna",
+        "BirthDateRaw": "1999-11-01",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "4635553",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1098",
+        "Name": "SURUCHI Inder Singh",
+        "BirthDateRaw": "2006-04-28",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "X.SKMT--------------",
+    "EvDesc": "Skeet Mixed Team",
+    "EvDescS": "Skeet Mixed Team",
+    "Order": 27,
+    "Partics": [
+     {
+      "Reg": "SHOXSKMT-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "X",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12555924",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 1,
+        "Bib": "1083",
+        "Name": "DHALIWAL Parinaaz",
+        "BirthDateRaw": "2001-11-30",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "6408134",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 2,
+        "Bib": "1103",
+        "Name": "NARUKA Anant Jeet Singh",
+        "BirthDateRaw": "1998-07-01",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   },
+   {
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "EvKey": "X.TRMT--------------",
+    "EvDesc": "Trap Mixed Team",
+    "EvDescS": "Trap Mixed Team",
+    "Order": 28,
+    "Partics": [
+     {
+      "Reg": "SHOXTRMT-------IND01",
+      "Org": "IND",
+      "OrgDesc": "India",
+      "hasMembers": true,
+      "Type": "T",
+      "MedClass": "",
+      "Gender": "X",
+      "Name": "India",
+      "NameS": "India",
+      "GivenName": "",
+      "FamilyName": "",
+      "Height": 0,
+      "Weight": 0,
+      "Members": [
+       {
+        "Reg": "12559510",
+        "Org": "IND",
+        "Gender": "M",
+        "Order": 1,
+        "Bib": "1084",
+        "Name": "CHENAI Kynan",
+        "BirthDateRaw": "1991-01-29",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       },
+       {
+        "Reg": "13021576",
+        "Org": "IND",
+        "Gender": "W",
+        "Order": 2,
+        "Bib": "1095",
+        "Name": "NEERU",
+        "BirthDateRaw": "2000-05-25",
+        "Position": "",
+        "PosDesc": "",
+        "Function": "AA01",
+        "FuncDesc": "Athlete",
+        "Substitute": false
+       }
+      ],
+      "Bib": "IND"
+     }
+    ]
+   }
+  ]
+ }
+}

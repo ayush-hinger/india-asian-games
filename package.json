@@ -1,0 +1,27 @@
+{
+  "name": "india-ag2026-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Near-real-time tracker for India's contingent at the Aichi-Nagoya 2026 Asian Games",
+  "engines": {
+    "node": ">=24.0.0 <25"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.ts",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^24.0.0"
+  },
+  "peerDependencies": {
+    "pg": "^8.13.0"
+  },
+  "peerDependenciesMeta": {
+    "pg": {
+      "optional": true
+    }
+  }
+}

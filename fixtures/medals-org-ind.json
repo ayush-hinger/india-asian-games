@@ -1,0 +1,55 @@
+{
+ "_fixture": {
+  "scope": "ALL",
+  "path": "/medals/org/IND",
+  "url": "https://back.results.asiangames2026.org/s/AG2026/en/ALL/medals/org/IND",
+  "capturedAt": "2026-09-20T05:41:34.914Z"
+ },
+ "data": [
+  {
+   "Medal": "ME_SILVER",
+   "Order": 1,
+   "Org": "IND",
+   "OrgDesc": "India",
+   "Reg": "SHOWARTW-------IND01",
+   "Type": "T",
+   "DateRaw": "2026-09-20T13:18:00+09:00",
+   "Name": "India",
+   "Disc": "SHO",
+   "DiscDesc": "Shooting",
+   "Event": "W.ARTW--------------.----",
+   "EventDesc": "10m Air Rifle Women Team",
+   "Bib": "",
+   "Gender": "W",
+   "Members": [
+    {
+     "Reg": "12640502",
+     "Bib": "1088",
+     "Org": "IND",
+     "OrgDesc": "India",
+     "Name": "VALARIVAN Elavenil",
+     "Order": 1,
+     "BirthDate": "1999-08-02"
+    },
+    {
+     "Reg": "12901175",
+     "Bib": "1093",
+     "Org": "IND",
+     "OrgDesc": "India",
+     "Name": "KOCHALUMKAL VINOD Vidarsa",
+     "Order": 2,
+     "BirthDate": "1999-06-20"
+    },
+    {
+     "Reg": "6510298",
+     "Bib": "1106",
+     "Org": "IND",
+     "OrgDesc": "India",
+     "Name": "MASKAR Sonam Uttam",
+     "Order": 3,
+     "BirthDate": "2002-09-18"
+    }
+   ]
+  }
+ ]
+}

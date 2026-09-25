@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>India @ Asian Games 2026</title>
+<link rel="stylesheet" href="/style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🇮🇳</text></svg>" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="flag" aria-hidden="true"></span>
+    <div>
+      <h1>India @ Asian Games 2026</h1>
+      <p class="sub">Aichi-Nagoya · 19 Sep – 4 Oct · all times IST</p>
+    </div>
+  </div>
+  <div class="conn" id="conn" title="Live connection status">
+    <span class="dot"></span><span id="conn-label">connecting</span>
+  </div>
+</header>
+
+<main>
+  <section class="tally" id="tally" aria-label="Medal tally">
+    <div class="tally-skeleton">Loading medal tally…</div>
+  </section>
+
+  <section id="live-section" hidden>
+    <h2>Live now</h2>
+    <div class="grid" id="live"></div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <h2>Schedule</h2>
+      <div class="controls">
+        <button id="prev-day" type="button" aria-label="Previous day">‹</button>
+        <input type="date" id="date" min="2026-09-19" max="2026-10-04" />
+        <button id="next-day" type="button" aria-label="Next day">›</button>
+      </div>
+    </div>
+    <div id="schedule" class="list"><div class="empty">Loading…</div></div>
+  </section>
+
+  <section id="discussion-section" hidden>
+    <div class="section-head">
+      <h2>Community thread</h2>
+      <a id="discussion-link" class="reddit-cta" href="#" target="_blank" rel="noreferrer noopener">
+        Join the discussion on Reddit →
+      </a>
+    </div>
+    <div id="discussion" class="discussion">
+      <button type="button" id="discussion-load" class="discussion-load">
+        <span class="dt" id="discussion-title">Loading thread…</span>
+        <span class="dh">Tap to load the Reddit megathread (~350&nbsp;KB)</span>
+      </button>
+    </div>
+    <p class="discussion-note">
+      The embed shows the megathread post itself. Reddit does not allow comment
+      threads to be embedded, so replies open on Reddit.
+    </p>
+  </section>
+
+  <section>
+    <h2>India's medals</h2>
+    <div id="wins" class="list"><div class="empty">No medals recorded yet.</div></div>
+  </section>
+</main>
+
+<footer>
+  <p>
+    Unofficial tracker. Results are provisional until marked official.
+    Official results: <a href="https://results.asiangames2026.org" rel="noreferrer noopener" target="_blank">results.asiangames2026.org</a>
+  </p>
+</footer>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>

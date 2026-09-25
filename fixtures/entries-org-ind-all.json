@@ -1,0 +1,353 @@
+{
+ "_fixture": {
+  "scope": "ALL",
+  "path": "/entries/org/IND",
+  "url": "https://back.results.asiangames2026.org/s/AG2026/en/ALL/entries/org/IND",
+  "capturedAt": "2026-09-20T05:41:36.226Z"
+ },
+ "data": {
+  "Count": [
+   {
+    "M": 6,
+    "W": 6,
+    "X": 0,
+    "O": 0,
+    "Disc": "ARC",
+    "DiscDesc": "Archery",
+    "Total": 12
+   },
+   {
+    "M": 0,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "GAR",
+    "DiscDesc": "Artistic Gymnastics",
+    "Total": 1
+   },
+   {
+    "M": 36,
+    "W": 43,
+    "X": 0,
+    "O": 0,
+    "Disc": "ATH",
+    "DiscDesc": "Athletics",
+    "Total": 79
+   },
+   {
+    "M": 10,
+    "W": 10,
+    "X": 0,
+    "O": 0,
+    "Disc": "BDM",
+    "DiscDesc": "Badminton",
+    "Total": 20
+   },
+   {
+    "M": 6,
+    "W": 5,
+    "X": 0,
+    "O": 0,
+    "Disc": "BOX",
+    "DiscDesc": "Boxing",
+    "Total": 11
+   },
+   {
+    "M": 2,
+    "W": 3,
+    "X": 0,
+    "O": 0,
+    "Disc": "CSL",
+    "DiscDesc": "Canoe Slalom",
+    "Total": 5
+   },
+   {
+    "M": 8,
+    "W": 6,
+    "X": 0,
+    "O": 0,
+    "Disc": "CSP",
+    "DiscDesc": "Canoe Sprint",
+    "Total": 14
+   },
+   {
+    "M": 15,
+    "W": 15,
+    "X": 0,
+    "O": 0,
+    "Disc": "CKT",
+    "DiscDesc": "Cricket",
+    "Total": 30
+   },
+   {
+    "M": 6,
+    "W": 8,
+    "X": 0,
+    "O": 0,
+    "Disc": "CTR",
+    "DiscDesc": "Cycling Track",
+    "Total": 14
+   },
+   {
+    "M": 7,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "EQU",
+    "DiscDesc": "Equestrian",
+    "Total": 8
+   },
+   {
+    "M": 15,
+    "W": 0,
+    "X": 0,
+    "O": 0,
+    "Disc": "ELS",
+    "DiscDesc": "Esports",
+    "Total": 15
+   },
+   {
+    "M": 8,
+    "W": 12,
+    "X": 0,
+    "O": 0,
+    "Disc": "FEN",
+    "DiscDesc": "Fencing",
+    "Total": 20
+   },
+   {
+    "M": 3,
+    "W": 3,
+    "X": 0,
+    "O": 0,
+    "Disc": "GLF",
+    "DiscDesc": "Golf",
+    "Total": 6
+   },
+   {
+    "M": 18,
+    "W": 18,
+    "X": 0,
+    "O": 0,
+    "Disc": "HOC",
+    "DiscDesc": "Hockey",
+    "Total": 36
+   },
+   {
+    "M": 0,
+    "W": 3,
+    "X": 0,
+    "O": 0,
+    "Disc": "JUD",
+    "DiscDesc": "Judo",
+    "Total": 3
+   },
+   {
+    "M": 12,
+    "W": 12,
+    "X": 0,
+    "O": 0,
+    "Disc": "KAB",
+    "DiscDesc": "Kabaddi",
+    "Total": 24
+   },
+   {
+    "M": 1,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "KTE",
+    "DiscDesc": "Karate",
+    "Total": 2
+   },
+   {
+    "M": 3,
+    "W": 3,
+    "X": 0,
+    "O": 0,
+    "Disc": "KUR",
+    "DiscDesc": "Kurash",
+    "Total": 6
+   },
+   {
+    "M": 1,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "MMA",
+    "DiscDesc": "Mixed Martial Arts",
+    "Total": 2
+   },
+   {
+    "M": 17,
+    "W": 5,
+    "X": 0,
+    "O": 0,
+    "Disc": "ROW",
+    "DiscDesc": "Rowing",
+    "Total": 22
+   },
+   {
+    "M": 0,
+    "W": 13,
+    "X": 0,
+    "O": 0,
+    "Disc": "RU7",
+    "DiscDesc": "Rugby Sevens",
+    "Total": 13
+   },
+   {
+    "M": 4,
+    "W": 6,
+    "X": 0,
+    "O": 0,
+    "Disc": "SAL",
+    "DiscDesc": "Sailing",
+    "Total": 10
+   },
+   {
+    "M": 12,
+    "W": 9,
+    "X": 0,
+    "O": 0,
+    "Disc": "SPK",
+    "DiscDesc": "Sepaktakraw",
+    "Total": 21
+   },
+   {
+    "M": 15,
+    "W": 15,
+    "X": 0,
+    "O": 0,
+    "Disc": "SHO",
+    "DiscDesc": "Shooting",
+    "Total": 30
+   },
+   {
+    "M": 5,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "TST",
+    "DiscDesc": "Soft Tennis",
+    "Total": 6
+   },
+   {
+    "M": 1,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "CLB",
+    "DiscDesc": "Sport Climbing",
+    "Total": 2
+   },
+   {
+    "M": 4,
+    "W": 4,
+    "X": 0,
+    "O": 0,
+    "Disc": "SQU",
+    "DiscDesc": "Squash",
+    "Total": 8
+   },
+   {
+    "M": 2,
+    "W": 2,
+    "X": 0,
+    "O": 0,
+    "Disc": "SRF",
+    "DiscDesc": "Surfing",
+    "Total": 4
+   },
+   {
+    "M": 12,
+    "W": 0,
+    "X": 0,
+    "O": 0,
+    "Disc": "SWM",
+    "DiscDesc": "Swimming",
+    "Total": 12
+   },
+   {
+    "M": 5,
+    "W": 5,
+    "X": 0,
+    "O": 0,
+    "Disc": "TTE",
+    "DiscDesc": "Table Tennis",
+    "Total": 10
+   },
+   {
+    "M": 0,
+    "W": 3,
+    "X": 0,
+    "O": 0,
+    "Disc": "TKW",
+    "DiscDesc": "Taekwondo",
+    "Total": 3
+   },
+   {
+    "M": 5,
+    "W": 2,
+    "X": 0,
+    "O": 0,
+    "Disc": "TEN",
+    "DiscDesc": "Tennis",
+    "Total": 7
+   },
+   {
+    "M": 2,
+    "W": 1,
+    "X": 0,
+    "O": 0,
+    "Disc": "TEQ",
+    "DiscDesc": "Teqball",
+    "Total": 3
+   },
+   {
+    "M": 12,
+    "W": 0,
+    "X": 0,
+    "O": 0,
+    "Disc": "VVO",
+    "DiscDesc": "Volleyball",
+    "Total": 12
+   },
+   {
+    "M": 1,
+    "W": 4,
+    "X": 0,
+    "O": 0,
+    "Disc": "WLF",
+    "DiscDesc": "Weightlifting",
+    "Total": 5
+   },
+   {
+    "M": 10,
+    "W": 6,
+    "X": 0,
+    "O": 0,
+    "Disc": "WRE",
+    "DiscDesc": "Wrestling",
+    "Total": 16
+   },
+   {
+    "M": 3,
+    "W": 4,
+    "X": 0,
+    "O": 0,
+    "Disc": "WSU",
+    "DiscDesc": "Wushu",
+    "Total": 7
+   }
+  ],
+  "Totals": {
+   "M": 267,
+   "W": 232,
+   "X": 0,
+   "Total": 499
+  },
+  "Org": "IND",
+  "OrgDesc": "India"
+ }
+}

@@ -1,0 +1,658 @@
+{
+ "_fixture": {
+  "scope": "CKT",
+  "path": "/schedule/daily/2026-09-20",
+  "url": "https://back.results.asiangames2026.org/s/AG2026/en/CKT/schedule/daily/2026-09-20",
+  "capturedAt": "2026-09-20T05:41:32.737Z"
+ },
+ "data": [
+  {
+   "Orgs": [
+    "PAK",
+    "SRI"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM--------------.SFNL.000100--",
+   "ShowLink": true,
+   "Disc": "CKT",
+   "DiscDesc": "Cricket",
+   "Key": "W.TEAM--------------.SFNL.000100--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "0",
+   "Status": "UNOFFICIAL",
+   "StatusDesc": "Unofficial",
+   "DateTimeRaw": "2026-09-20T10:20:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "KAP",
+   "VenueDesc": "Korogi Athletic Park",
+   "VenueDescS": "Korogi Athletic Park",
+   "Loc": "KAP",
+   "LocDesc": "Korogi Athletic Park",
+   "LocDescS": "Korogi Athletic Park",
+   "Event": "W.TEAM--------------",
+   "EventDesc": "Women",
+   "Phase": "W.TEAM--------------.SFNL",
+   "PhaseOrder": 2,
+   "PhaseDesc": "Women's Semifinals",
+   "PhaseDescS": "Semifinals",
+   "PhaseDescA": "Semifinals",
+   "UnitDesc": "Women's Semifinal 1",
+   "UnitDescS": "Semifinal 1",
+   "UnitDescA": "Semifinal 1",
+   "UnitNum": "5",
+   "IsLive": false,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "",
+     "DescS": ""
+    }
+   ],
+   "Home": {
+    "Org": "PAK",
+    "Reg": "CKTWTEAM-------PAK01",
+    "Name": "Pakistan",
+    "Result": "177 - 4",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Pakistan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "PAK",
+      "Bib": "56",
+      "Name": "FEROZA Gull",
+      "NameS": "FEROZA Gull",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "26",
+      "Name": "ZULFIQAR Shawaal",
+      "NameS": "ZULFIQAR Shawaal",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "63",
+      "Name": "JABEEN Saira",
+      "NameS": "JABEEN Saira",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "79",
+      "Name": "ZAFAR Ayesha",
+      "NameS": "ZAFAR Ayesha",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "14",
+      "Name": "KHAN Fatima Sana",
+      "NameS": "KHAN Fatima Sana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Fast"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "39",
+      "Name": "FATIMA Eyman",
+      "NameS": "FATIMA Eyman",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "6",
+      "Name": "SUNDHU Nashra",
+      "NameS": "SUNDHU Nashra",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "12",
+      "Name": "HANI Umme",
+      "NameS": "HANI Umme",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "37",
+      "Name": "RIAZ Aliya",
+      "NameS": "RIAZ Aliya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "20",
+      "Name": "RIASAT Momina",
+      "NameS": "RIASAT Momina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "72",
+      "Name": "HASSAN Tuba",
+      "NameS": "HASSAN Tuba",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Leg Spinner"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "55",
+      "Name": "NASEER Eman",
+      "NameS": "NASEER Eman",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "10",
+      "Name": "RUBAB Tasmia",
+      "NameS": "RUBAB Tasmia",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Fast"
+     },
+     {
+      "Org": "PAK",
+      "Bib": "3",
+      "Name": "BILAL Humna",
+      "NameS": "BILAL Humna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Fast"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "177 - 4",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "SRI",
+    "Reg": "CKTWTEAM-------SRI01",
+    "Name": "Sri Lanka",
+    "Result": "178 - 2",
+    "Winner": true,
+    "HasData": true,
+    "NameS": "Sri Lanka",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "SRI",
+      "Bib": "9",
+      "Name": "WITHARANA Imesha Dulani",
+      "NameS": "WITHARANA Imesha Dulani",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "58",
+      "Name": "ATHAPATHTHU MUDIYANSELAGE CJK",
+      "NameS": "ATHAPATHTHU MUDIYANSELAGE CJK",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Hand Bat"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "72",
+      "Name": "GAMAACHCHI WITHANAGE HMP",
+      "NameS": "GAMAACHCHI WITHANAGE HMP",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "88",
+      "Name": "DISSANAYAKA SAMARAWICKRAM HM",
+      "NameS": "DISSANAYAKA SAMARAWICKRAM HM",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Hand Bat"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "6",
+      "Name": "WALIKONTHAGEI Kaveesha Dilhari",
+      "NameS": "WALIKONTHAGEI Kaveesha Dilhari",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "7",
+      "Name": "KARUNARATNE Hansima",
+      "NameS": "KARUNARATNE Hansima",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "10",
+      "Name": "HIKKADUWA GAMAGE Kawya Kavindi",
+      "NameS": "HIKKADUWA GAMAGE Kawya Kavindi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Fast"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "29",
+      "Name": "THATUWEL ARAWE GEDARA MAB",
+      "NameS": "THATUWEL ARAWE GEDARA MAB",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "33",
+      "Name": "SERAM SENEVIRATHNE EDIRIS KN",
+      "NameS": "SERAM SENEVIRATHNE EDIRIS KN",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "75",
+      "Name": "HEWA MUNASINHAGE CPM",
+      "NameS": "HEWA MUNASINHAGE CPM",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "91",
+      "Name": "DASANAYAKA Sugandika Manel Kumari",
+      "NameS": "DASANAYAKA Sugandika Manel Kumari",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "12",
+      "Name": "HEWA LANKA GEEGANAGE RS",
+      "NameS": "HEWA LANKA GEEGANAGE RS",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "25",
+      "Name": "EDIRIMUNI Sanjana Kavindi De Silva",
+      "NameS": "EDIRIMUNI Sanjana Kavindi De Silva",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Hand Bat"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "17",
+      "Name": "SANJEEWANI Anushka",
+      "NameS": "SANJEEWANI Anushka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "SRI",
+      "Bib": "78",
+      "Name": "MEEPAGE Nimasha Madushani",
+      "NameS": "MEEPAGE Nimasha Madushani",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "178 - 2",
+      "Extensions": []
+     }
+    ]
+   }
+  },
+  {
+   "Orgs": [
+    "BAN",
+    "IND"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM--------------.SFNL.000200--",
+   "ShowLink": true,
+   "Disc": "CKT",
+   "DiscDesc": "Cricket",
+   "Key": "W.TEAM--------------.SFNL.000200--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "KAP",
+   "VenueDesc": "Korogi Athletic Park",
+   "VenueDescS": "Korogi Athletic Park",
+   "Loc": "KAP",
+   "LocDesc": "Korogi Athletic Park",
+   "LocDescS": "Korogi Athletic Park",
+   "Event": "W.TEAM--------------",
+   "EventDesc": "Women",
+   "Phase": "W.TEAM--------------.SFNL",
+   "PhaseOrder": 2,
+   "PhaseDesc": "Women's Semifinals",
+   "PhaseDescS": "Semifinals",
+   "PhaseDescA": "Semifinals",
+   "UnitDesc": "Women's Semifinal 2",
+   "UnitDescS": "Semifinal 2",
+   "UnitDescA": "Semifinal 2",
+   "UnitNum": "6",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "",
+     "DescS": ""
+    }
+   ],
+   "Home": {
+    "Org": "BAN",
+    "Reg": "CKTWTEAM-------BAN01",
+    "Name": "Bangladesh",
+    "Result": "0 - 0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Bangladesh",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "BAN",
+      "Bib": "1",
+      "Name": "JOTY Nigar Sultana",
+      "NameS": "JOTY Nigar Sultana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "2",
+      "Name": "KHAN Rabeya",
+      "NameS": "KHAN Rabeya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Leg Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "6",
+      "Name": "MOSTARY Sobhana",
+      "NameS": "MOSTARY Sobhana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "7",
+      "Name": "FERDOUS Juairiya",
+      "NameS": "FERDOUS Juairiya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "11",
+      "Name": "AKTER Shorna",
+      "NameS": "AKTER Shorna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "13",
+      "Name": "KHATUN Sultana",
+      "NameS": "KHATUN Sultana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "14",
+      "Name": "SUPTA Most Sharmin Akter",
+      "NameS": "SUPTA Most Sharmin Akter",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "32",
+      "Name": "AKTER Nahida",
+      "NameS": "AKTER Nahida",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "42",
+      "Name": "MAGHLA Mst Shanjida Akther",
+      "NameS": "MAGHLA Mst Shanjida Akther",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "90",
+      "Name": "AKTER Marufa",
+      "NameS": "AKTER Marufa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "92",
+      "Name": "AKTER Dilara",
+      "NameS": "AKTER Dilara",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "93",
+      "Name": "EASMIN Mst Farjana",
+      "NameS": "EASMIN Mst Farjana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "9",
+      "Name": "KHATUN Fahima",
+      "NameS": "KHATUN Fahima",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Leg Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "88",
+      "Name": "MONI Mst Ritu",
+      "NameS": "MONI Mst Ritu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "84",
+      "Name": "SULTANA Mst Sarmin",
+      "NameS": "SULTANA Mst Sarmin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0 - 0",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "IND",
+    "Reg": "CKTWTEAM-------IND01",
+    "Name": "India",
+    "Result": "97 - 2",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "India",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "IND",
+      "Bib": "18",
+      "Name": "MANDHANA Smriti Shriniwas",
+      "NameS": "MANDHANA Smriti Shriniwas",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "17",
+      "Name": "Shafali",
+      "NameS": "Shafali",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "16",
+      "Name": "GUNALAN Kamalini",
+      "NameS": "GUNALAN Kamalini",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "IND",
+      "Bib": "23",
+      "Name": "BHULLAR Harmanpreet Kaur",
+      "NameS": "BHULLAR Harmanpreet Kaur",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "4",
+      "Name": "NALLAPUREDDY Sree Charani",
+      "NameS": "NALLAPUREDDY Sree Charani",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "6",
+      "Name": "SHARMA Deepti",
+      "NameS": "SHARMA Deepti",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "13",
+      "Name": "GHOSH Richa",
+      "NameS": "GHOSH Richa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "IND",
+      "Bib": "26",
+      "Name": "GAUD Kranti Devi",
+      "NameS": "GAUD Kranti Devi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "IND",
+      "Bib": "31",
+      "Name": "RAJESH PATIL Shreyanka",
+      "NameS": "RAJESH PATIL Shreyanka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "45",
+      "Name": "FULMALI Bharti Shrikrushna",
+      "NameS": "FULMALI Bharti Shrikrushna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "58",
+      "Name": "SHARMA Nandani",
+      "NameS": "SHARMA Nandani",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "IND",
+      "Bib": "21",
+      "Name": "YADAV Radha Omprakash",
+      "NameS": "YADAV Radha Omprakash",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "10",
+      "Name": "Renuka",
+      "NameS": "Renuka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "IND",
+      "Bib": "64",
+      "Name": "RAWAL Pratika",
+      "NameS": "RAWAL Pratika",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "20",
+      "Name": "Arundhati Reddy",
+      "NameS": "Arundhati Reddy",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "97 - 2",
+      "Extensions": []
+     }
+    ]
+   }
+  }
+ ]
+}

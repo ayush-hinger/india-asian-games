@@ -1,0 +1,6233 @@
+{
+ "_fixture": {
+  "scope": "ALL",
+  "path": "/schedule/live-now",
+  "url": "https://back.results.asiangames2026.org/s/AG2026/en/ALL/schedule/live-now",
+  "capturedAt": "2026-09-20T05:41:33.597Z"
+ },
+ "data": [
+  {
+   "Orgs": [
+    "MAS",
+    "UZB"
+   ],
+   "IsPhase": false,
+   "ResCode": "M.TEAM11------------.GPB-.000200--",
+   "ShowLink": true,
+   "Disc": "HOC",
+   "DiscDesc": "Hockey",
+   "Key": "M.TEAM11------------.GPB-.000200--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T13:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "GPG",
+   "VenueDesc": "Gifu Prefectural Green Stadium(Gifu)",
+   "VenueDescS": "Gifu Prefectural Green Stadium",
+   "Loc": "001",
+   "LocDesc": "Gifu Prefectural Green Stadium",
+   "LocDescS": "Gifu Prefectural Green Stadium",
+   "Event": "M.TEAM11------------",
+   "EventDesc": "Men",
+   "Phase": "M.TEAM11------------.GPB-",
+   "PhaseOrder": 26,
+   "PhaseDesc": "Men Pool B",
+   "PhaseDescS": "Men B",
+   "PhaseDescA": "Pool B",
+   "UnitDesc": "Men Pool B Match 2",
+   "UnitDescS": "Men B M 2",
+   "UnitDescA": "Match 2",
+   "UnitNum": "3",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "First Quarter",
+     "DescS": "1ST"
+    },
+    {
+     "Order": 2,
+     "Desc": "Halftime",
+     "DescS": "2ND"
+    },
+    {
+     "Order": 3,
+     "Desc": "Third Quarter",
+     "DescS": "3RD"
+    },
+    {
+     "Order": 4,
+     "Desc": "Full Time",
+     "DescS": "4TH"
+    }
+   ],
+   "Home": {
+    "Org": "MAS",
+    "Reg": "HOCMTEAM11-----MAS01",
+    "Name": "Malaysia",
+    "Result": "5",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Malaysia",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "MAS",
+      "Bib": "6",
+      "Name": "JALIL Marhan",
+      "NameS": "JALIL Marhan",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "7",
+      "Name": "SAARI Mohd Fitri",
+      "NameS": "SAARI Mohd Fitri",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "10",
+      "Name": "SAARI Faizal",
+      "NameS": "SAARI Faizal",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "11",
+      "Name": "ANUAR Akhimullah",
+      "NameS": "ANUAR Akhimullah",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "15",
+      "Name": "SILVERIUS Shello",
+      "NameS": "SILVERIUS Shello",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "16",
+      "Name": "MAT DERIS Zaimi",
+      "NameS": "MAT DERIS Zaimi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "18",
+      "Name": "JALI Faiz",
+      "NameS": "JALI Faiz",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "20",
+      "Name": "HAMSANI Ashran",
+      "NameS": "HAMSANI Ashran",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "21",
+      "Name": "OTHMAN Hafizuddin",
+      "NameS": "OTHMAN Hafizuddin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "22",
+      "Name": "SUMANTRI Norsyafiq",
+      "NameS": "SUMANTRI Norsyafiq",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "23",
+      "Name": "ABU KAMAL Azrai",
+      "NameS": "ABU KAMAL Azrai",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "24",
+      "Name": "ROZEMI Aiman",
+      "NameS": "ROZEMI Aiman",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "26",
+      "Name": "ABDU RAUF Muhajir",
+      "NameS": "ABDU RAUF Muhajir",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "27",
+      "Name": "HASSAN Shafiq",
+      "NameS": "HASSAN Shafiq",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "29",
+      "Name": "AZAHAR Amirul",
+      "NameS": "AZAHAR Amirul",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "30",
+      "Name": "HARIZAN Faris",
+      "NameS": "HARIZAN Faris",
+      "FuncDesc": "Alternate Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "31",
+      "Name": "KAMARUDDIN Azimuddin",
+      "NameS": "KAMARUDDIN Azimuddin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "MAS",
+      "Bib": "32",
+      "Name": "MOHD ZAIN Aminudin",
+      "NameS": "MOHD ZAIN Aminudin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "2",
+      "Extensions": []
+     },
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "1",
+      "Extensions": []
+     },
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "2",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "RESULT_INFO",
+      "Code": "AvailableVideoReferral",
+      "Pos": 0,
+      "Value": "Y",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "CardExcluded",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Excluded",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "RegularTimeResult",
+      "Pos": 0,
+      "Value": "5",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "UZB",
+    "Reg": "HOCMTEAM11-----UZB01",
+    "Name": "Uzbekistan",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Uzbekistan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "UZB",
+      "Bib": "1",
+      "Name": "TOLIBBAEV Davlat",
+      "NameS": "TOLIBBAEV Davlat",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "4",
+      "Name": "MAMAJONOV Islombek",
+      "NameS": "MAMAJONOV Islombek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "5",
+      "Name": "IBROKHIMOV Azizbek",
+      "NameS": "IBROKHIMOV Azizbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "7",
+      "Name": "MIRZAKARIMOV Shavkatbek",
+      "NameS": "MIRZAKARIMOV Shavkatbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "9",
+      "Name": "SALIMJONOV Shokhrukhbek",
+      "NameS": "SALIMJONOV Shokhrukhbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "10",
+      "Name": "ASLANOV Mukhammadkarim",
+      "NameS": "ASLANOV Mukhammadkarim",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "11",
+      "Name": "NAZIROV Ruzimukhammad",
+      "NameS": "NAZIROV Ruzimukhammad",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "12",
+      "Name": "KHAYTBOEV Gaybullo",
+      "NameS": "KHAYTBOEV Gaybullo",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "14",
+      "Name": "KHAKIMOV Khakimboy",
+      "NameS": "KHAKIMOV Khakimboy",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "15",
+      "Name": "ABBOSKHONOV Azamatkhon",
+      "NameS": "ABBOSKHONOV Azamatkhon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "18",
+      "Name": "HUSANOV Fozilbek",
+      "NameS": "HUSANOV Fozilbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "19",
+      "Name": "KOMILOV Jamshidbek",
+      "NameS": "KOMILOV Jamshidbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "20",
+      "Name": "YULDASHEV Nodirbek",
+      "NameS": "YULDASHEV Nodirbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "21",
+      "Name": "GANIEV Gayratbek",
+      "NameS": "GANIEV Gayratbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "22",
+      "Name": "ABDURAKHMONOV Bakhodirjon",
+      "NameS": "ABDURAKHMONOV Bakhodirjon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "44",
+      "Name": "ASLIDDINOV Asadbek",
+      "NameS": "ASLIDDINOV Asadbek",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "77",
+      "Name": "SAYDULLAEV Fakhriddin",
+      "NameS": "SAYDULLAEV Fakhriddin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "UZB",
+      "Bib": "99",
+      "Name": "SOTLIKOV Doston",
+      "NameS": "SOTLIKOV Doston",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "0",
+      "Extensions": []
+     },
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "0",
+      "Extensions": []
+     },
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "0",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "RESULT_INFO",
+      "Code": "AvailableVideoReferral",
+      "Pos": 0,
+      "Value": "Y",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "CardExcluded",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Excluded",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "RegularTimeResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoMatch",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoTeam",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_1",
+     "Pos": 0,
+     "Value": "AZAHAR Amirul;True;;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_2",
+     "Pos": 0,
+     "Value": "HARIZAN Faris;;True;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_3",
+     "Pos": 0,
+     "Value": "ROZEMI Aiman;True;;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_4",
+     "Pos": 0,
+     "Value": "HASSAN Shafiq;;True;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_5",
+     "Pos": 0,
+     "Value": "ABDURAKHMONOV Bakhodirjon;;True;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_6",
+     "Pos": 0,
+     "Value": "HUSANOV Fozilbek;True;;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Reason_7",
+     "Pos": 0,
+     "Value": "SAYDULLAEV Fakhriddin;True;;;",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "RegularPeriods",
+     "Pos": 0,
+     "Value": "4",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ServerHomeAway",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutPeriod",
+     "Pos": 0,
+     "Value": "5",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutVisible",
+     "Pos": 0,
+     "Value": "N",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootsOnChallenge",
+     "Pos": 0,
+     "Value": "5",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "IRI",
+    "VIE",
+    "BRN",
+    "BAN",
+    "MAC",
+    "TPE",
+    "KOR",
+    "HKG",
+    "INA",
+    "UAE",
+    "THA",
+    "JPN",
+    "CHN",
+    "UZB",
+    "MGL",
+    "KAZ",
+    "QAT",
+    "SYR"
+   ],
+   "IsPhase": false,
+   "ResCode": "M.TT----------------.FNL-.000100--",
+   "ShowLink": true,
+   "Disc": "CRD",
+   "DiscDesc": "Cycling Road",
+   "Key": "M.TT----------------.FNL-.000100--",
+   "isH2H": false,
+   "Type": "A",
+   "Medal": "1",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T13:30:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "SRC",
+   "VenueDesc": "Shinshiro Cycling Road Course",
+   "VenueDescS": "Shinshiro Cycling Road Course",
+   "Loc": "SRC",
+   "LocDesc": "Shinshiro Cycling Road Course",
+   "LocDescS": "Shinshiro Cycling Road Course",
+   "Event": "M.TT----------------",
+   "EventDesc": "Men's Individual Time Trial",
+   "Phase": "M.TT----------------.FNL-",
+   "PhaseOrder": 1,
+   "PhaseDesc": "Men's Individual Time Trial",
+   "PhaseDescS": "Men's Individual Time Trial",
+   "PhaseDescA": "Final",
+   "UnitDesc": "Men's Individual Time Trial",
+   "UnitDescS": "Men's Individual Time Trial",
+   "UnitDescA": "Final",
+   "UnitNum": "1",
+   "IsLive": true,
+   "ShowResults": true,
+   "Counters": {
+    "Partics": 18,
+    "Orgs": 18
+   }
+  },
+  {
+   "Orgs": [
+    "KOR",
+    "KAZ"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM7-------------.FNL-.000400--",
+   "ShowLink": true,
+   "Disc": "HBL",
+   "DiscDesc": "Handball",
+   "Key": "W.TEAM7-------------.FNL-.000400--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T13:30:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "KCG",
+   "VenueDesc": "Kasugai City Gymnasium",
+   "VenueDescS": "Kasugai City Gymnasium",
+   "Loc": "001",
+   "LocDesc": "Kasugai City Gymnasium",
+   "LocDescS": "Kasugai City Gymnasium",
+   "Event": "W.TEAM7-------------",
+   "EventDesc": "Women",
+   "Phase": "W.TEAM7-------------.FNL-",
+   "PhaseOrder": 25,
+   "PhaseDesc": "Women Women's Round",
+   "PhaseDescS": "Women Women's Round",
+   "PhaseDescA": "Women's Round",
+   "UnitDesc": "Women Women's Round Match 4",
+   "UnitDescS": "Women Women's Round M 4",
+   "UnitDescA": "Match 4",
+   "UnitNum": "8",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "1st Half",
+     "DescS": "H1"
+    },
+    {
+     "Order": 2,
+     "Desc": "2nd Half",
+     "DescS": "H2"
+    }
+   ],
+   "Home": {
+    "Org": "KOR",
+    "Reg": "HBLWTEAM7------KOR01",
+    "Name": "Republic of Korea",
+    "Result": "25",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Korea",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "KOR",
+      "Bib": "4",
+      "Name": "LEE Hyewon",
+      "NameS": "LEE Hyewon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "7",
+      "Name": "LEE Wonjung",
+      "NameS": "LEE Wonjung",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Wing"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "9",
+      "Name": "LEE Yeongyeong",
+      "NameS": "LEE Yeongyeong",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Center Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "11",
+      "Name": "RYU Eun",
+      "NameS": "RYU Eun",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "12",
+      "Name": "JEONG Jinhui",
+      "NameS": "JEONG Jinhui",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "16",
+      "Name": "PARK Saeyoung",
+      "NameS": "PARK Saeyoung",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "18",
+      "Name": "HAN Miseul",
+      "NameS": "HAN Miseul",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "19",
+      "Name": "KANG Eunhye",
+      "NameS": "KANG Eunhye",
+      "FuncDesc": "Pivot",
+      "PosDesc": "Pivot"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "20",
+      "Name": "JO Eunbeen",
+      "NameS": "JO Eunbeen",
+      "FuncDesc": "Center Back",
+      "PosDesc": "Center Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "21",
+      "Name": "KIM Sora",
+      "NameS": "KIM Sora",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Pivot"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "23",
+      "Name": "WOO Bitna",
+      "NameS": "WOO Bitna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "24",
+      "Name": "KWON Han",
+      "NameS": "KWON Han",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Back"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "26",
+      "Name": "CHA Seoyeon",
+      "NameS": "CHA Seoyeon",
+      "FuncDesc": "Right Back",
+      "PosDesc": "Right Wing"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "27",
+      "Name": "JEON Jiyeon",
+      "NameS": "JEON Jiyeon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Wing"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "31",
+      "Name": "GIM Boeun",
+      "NameS": "GIM Boeun",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Pivot"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "37",
+      "Name": "KIM Minseo",
+      "NameS": "KIM Minseo",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Center Back"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "18",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "7",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.TEAM7-------------.FNL-.000100--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "HBLWTEAM7------KOR01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "HBLWTEAM7------HKG01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "48-16"
+       }
+      ]
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ConsoleTimeOuts",
+      "Pos": 0,
+      "Value": "1",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "EmptyGoal",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TimeOut1",
+      "Pos": 0,
+      "Value": "27:33",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TimeOut2",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TimeOut3",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "KAZ",
+    "Reg": "HBLWTEAM7------KAZ01",
+    "Name": "Kazakhstan",
+    "Result": "11",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Kazakhstan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "KAZ",
+      "Bib": "1",
+      "Name": "ZHAPAROVA Damira",
+      "NameS": "ZHAPAROVA Damira",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "3",
+      "Name": "SITNIKOVA Mariya",
+      "NameS": "SITNIKOVA Mariya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Pivot"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "4",
+      "Name": "REJEMETOVA Sevara",
+      "NameS": "REJEMETOVA Sevara",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Wing"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "5",
+      "Name": "TURSYN Aiym",
+      "NameS": "TURSYN Aiym",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "7",
+      "Name": "ZHAPAROVA Aida",
+      "NameS": "ZHAPAROVA Aida",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Center Back"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "9",
+      "Name": "KHARDINA Veronika",
+      "NameS": "KHARDINA Veronika",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Back"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "10",
+      "Name": "RADAYEVA Kristina",
+      "NameS": "RADAYEVA Kristina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Back"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "11",
+      "Name": "ZVYAGINA Zlata",
+      "NameS": "ZVYAGINA Zlata",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Wing"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "12",
+      "Name": "AITENOVA Zhannat",
+      "NameS": "AITENOVA Zhannat",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "14",
+      "Name": "ABDIKHAMIT Arailym",
+      "NameS": "ABDIKHAMIT Arailym",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Pivot"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "15",
+      "Name": "KHASSAKHANOVA Irina",
+      "NameS": "KHASSAKHANOVA Irina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Wing"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "17",
+      "Name": "SEITKASSYM Zhanerke",
+      "NameS": "SEITKASSYM Zhanerke",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Wing"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "22",
+      "Name": "MYRZAMSEIITOVA Madina",
+      "NameS": "MYRZAMSEIITOVA Madina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Pivot"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "55",
+      "Name": "STEPANOVA Kristina",
+      "NameS": "STEPANOVA Kristina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Wing"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "72",
+      "Name": "KUANDYKOVA Zhanerke",
+      "NameS": "KUANDYKOVA Zhanerke",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Back"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "8",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "3",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.TEAM7-------------.FNL-.000200--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "HBLWTEAM7------KAZ01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "HBLWTEAM7------CHN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "24-34"
+       }
+      ]
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ConsoleTimeOuts",
+      "Pos": 0,
+      "Value": "2",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "EmptyGoal",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TimeOut1",
+      "Pos": 0,
+      "Value": "14:52",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TimeOut2",
+      "Pos": 0,
+      "Value": "18:20",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TimeOut3",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "UNIT_INFO",
+     "Code": "PeriodSDesc",
+     "Pos": 0,
+     "Value": "H2",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutPeriod",
+     "Pos": 0,
+     "Value": "5",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutVisible",
+     "Pos": 0,
+     "Value": "false",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "SO_Round",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Spectators",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "KAZ",
+    "JPN"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM5-------------.GPB-.000400--",
+   "ShowLink": true,
+   "Disc": "BKB",
+   "DiscDesc": "Basketball",
+   "Key": "W.TEAM5-------------.GPB-.000400--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T13:50:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "AIA",
+   "VenueDesc": "Aichi International Arena",
+   "VenueDescS": "Aichi International Arena",
+   "Loc": "001",
+   "LocDesc": "Aichi International Arena",
+   "LocDescS": "AIA",
+   "Event": "W.TEAM5-------------",
+   "EventDesc": "Women",
+   "Phase": "W.TEAM5-------------.GPB-",
+   "PhaseOrder": 26,
+   "PhaseDesc": "Women Group Phase - Group B",
+   "PhaseDescS": "Women Group B",
+   "PhaseDescA": "Group Phase - Group B",
+   "UnitDesc": "Women Group Phase - Group B Game 4",
+   "UnitDescS": "Women Group B G 4",
+   "UnitDescA": "Game 4",
+   "UnitNum": "8",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "Quarter 1",
+     "DescS": "Q1"
+    },
+    {
+     "Order": 2,
+     "Desc": "Quarter 2",
+     "DescS": "Q2"
+    },
+    {
+     "Order": 3,
+     "Desc": "Quarter 3",
+     "DescS": "Q3"
+    },
+    {
+     "Order": 4,
+     "Desc": "Quarter 4",
+     "DescS": "Q4"
+    }
+   ],
+   "Home": {
+    "Org": "KAZ",
+    "Reg": "BKBWTEAM5------KAZ01",
+    "Name": "Kazakhstan",
+    "Result": "15",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Kazakhstan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "KAZ",
+      "Bib": "4",
+      "Name": "PETELINA Alexandra",
+      "NameS": "PETELINA Alexandra",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Shooting Guard"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "7",
+      "Name": "NOIOK Tamara",
+      "NameS": "NOIOK Tamara",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Shooting Guard"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "9",
+      "Name": "ALISHAUSKAITE Anastassiya",
+      "NameS": "ALISHAUSKAITE Anastassiya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Point Guard"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "11",
+      "Name": "NURBAYEVA Oxana",
+      "NameS": "NURBAYEVA Oxana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "13",
+      "Name": "BEZGODOVA Anna",
+      "NameS": "BEZGODOVA Anna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "14",
+      "Name": "AMANZHOLOVA Kamila",
+      "NameS": "AMANZHOLOVA Kamila",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Point Guard"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "15",
+      "Name": "YAKOVLEVA Nadezhda",
+      "NameS": "YAKOVLEVA Nadezhda",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Power Forward"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "17",
+      "Name": "KOROLEVA Daria",
+      "NameS": "KOROLEVA Daria",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Small Forward"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "22",
+      "Name": "MUSTAFINA Adelya",
+      "NameS": "MUSTAFINA Adelya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Shooting Guard"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "55",
+      "Name": "KRUTEVICH Milana",
+      "NameS": "KRUTEVICH Milana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "77",
+      "Name": "KAPITONOVA Valeriya",
+      "NameS": "KAPITONOVA Valeriya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Small Forward"
+     },
+     {
+      "Org": "KAZ",
+      "Bib": "88",
+      "Name": "TSUKANOVA Darya",
+      "NameS": "TSUKANOVA Darya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Shooting Guard"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "9",
+      "Extensions": []
+     },
+     {
+      "Rk": "2",
+      "RkPo": 2,
+      "Res": "6",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.TEAM5-------------.GPB-.000100--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "BKBWTEAM5------KAZ01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "BKBWTEAM5------PHI01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "58-86"
+       }
+      ]
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "Age",
+      "Pos": 0,
+      "Value": "27.7",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "Height",
+      "Pos": 0,
+      "Value": "1.79/5.87",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_15MIN",
+      "Pos": 0,
+      "Value": "13",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_25MIN",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_35MIN",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_5MIN",
+      "Pos": 0,
+      "Value": "3",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "TimeLeading",
+      "Pos": 0,
+      "Value": "00:00",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "JPN",
+    "Reg": "BKBWTEAM5------JPN01",
+    "Name": "Japan",
+    "Result": "48",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Japan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "JPN",
+      "Bib": "9",
+      "Name": "AKAGI Riho",
+      "NameS": "AKAGI Riho",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Guard"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "11",
+      "Name": "OKAMOTO Miyu",
+      "NameS": "OKAMOTO Miyu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "15",
+      "Name": "MIURA Maika",
+      "NameS": "MIURA Maika",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Guard"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "17",
+      "Name": "SANTA Nana",
+      "NameS": "SANTA Nana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "19",
+      "Name": "TATEYAMA Mona",
+      "NameS": "TATEYAMA Mona",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "21",
+      "Name": "TSUNETA Ami",
+      "NameS": "TSUNETA Ami",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Guard"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "25",
+      "Name": "SATO Takako",
+      "NameS": "SATO Takako",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Guard"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "30",
+      "Name": "SHIRAISHI Mio",
+      "NameS": "SHIRAISHI Mio",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "42",
+      "Name": "TANAKA Ufuoma",
+      "NameS": "TANAKA Ufuoma",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "45",
+      "Name": "AWATANI Maho",
+      "NameS": "AWATANI Maho",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "74",
+      "Name": "HIGUCHI Suzuno",
+      "NameS": "HIGUCHI Suzuno",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Guard"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "91",
+      "Name": "OWAKI Haru",
+      "NameS": "OWAKI Haru",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "23",
+      "Extensions": []
+     },
+     {
+      "Rk": "1",
+      "RkPo": 1,
+      "Res": "25",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.TEAM5-------------.GPB-.000200--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "BKBWTEAM5------JPN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "BKBWTEAM5------HKG01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "114-37"
+       }
+      ]
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "Age",
+      "Pos": 0,
+      "Value": "24.1",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "Height",
+      "Pos": 0,
+      "Value": "1.75/5.74",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_15MIN",
+      "Pos": 0,
+      "Value": "29",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_25MIN",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_35MIN",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "SCORE_5MIN",
+      "Pos": 0,
+      "Value": "12",
+      "Extensions": []
+     },
+     {
+      "Type": "TEAM_INFO",
+      "Code": "TimeLeading",
+      "Pos": 0,
+      "Value": "19:42",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ATTENDANCE",
+     "Pos": 0,
+     "Value": "7360",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CONSOLE_FOULS",
+     "Pos": 0,
+     "Value": "T",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CONSOLE_INFO",
+     "Pos": 0,
+     "Value": "T",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CONSOLE_MEM_FOULS",
+     "Pos": 0,
+     "Value": "F",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CONSOLE_MEM_PTS",
+     "Pos": 0,
+     "Value": "F",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CONSOLE_TOUTS",
+     "Pos": 0,
+     "Value": "F",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "REAL_DURATION",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "JPN",
+    "TPE"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM--------------.FNL-.00010000",
+   "ShowLink": true,
+   "Disc": "TST",
+   "DiscDesc": "Soft Tennis",
+   "Key": "W.TEAM--------------.FNL-.00010000",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "1",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "HPT",
+   "VenueDesc": "Nagoya City Higashiyama Park Tennis Center",
+   "VenueDescS": "Higashiyama Park Tennis Center",
+   "Loc": "001",
+   "LocDesc": "Center Court",
+   "LocDescS": "Center Court",
+   "Event": "W.TEAM--------------",
+   "EventDesc": "Women's Team",
+   "Phase": "W.TEAM--------------.FNL-",
+   "PhaseOrder": 1,
+   "PhaseDesc": "Women's Team Finals",
+   "PhaseDescS": "Women's Team F",
+   "PhaseDescA": "Finals",
+   "UnitDesc": "Women's Team Finals Gold Medal Match",
+   "UnitDescS": "Women's Team F GM",
+   "UnitDescA": "Gold Medal Match",
+   "UnitNum": "",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "Game 1",
+     "DescS": "G1",
+     "Extensions": [
+      {
+       "Type": "PERIOD_INFO",
+       "Code": "AwayTieBreakPoints",
+       "Pos": 0,
+       "Value": "0",
+       "Extensions": []
+      },
+      {
+       "Type": "PERIOD_INFO",
+       "Code": "HomeTieBreakPoints",
+       "Pos": 0,
+       "Value": "0",
+       "Extensions": []
+      },
+      {
+       "Type": "PERIOD_INFO",
+       "Code": "SuperTieBreak",
+       "Pos": 0,
+       "Value": "False",
+       "Extensions": []
+      }
+     ]
+    }
+   ],
+   "Home": {
+    "Org": "JPN",
+    "Reg": "TSTWTEAM-------JPN01",
+    "Name": "Japan",
+    "Result": "1",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Japan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "JPN",
+      "Bib": "",
+      "Name": "MIYAMAE Kiho",
+      "NameS": "MIYAMAE Kiho",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "JPN",
+      "Bib": "",
+      "Name": "MAEDA Rio",
+      "NameS": "MAEDA Rio",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "JPN",
+      "Bib": "",
+      "Name": "NAKATANI Sakura",
+      "NameS": "NAKATANI Sakura",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "JPN",
+      "Bib": "",
+      "Name": "IWAKURA Ayaka",
+      "NameS": "IWAKURA Ayaka",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "JPN",
+      "Bib": "",
+      "Name": "TEMMA Rena",
+      "NameS": "TEMMA Rena",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     }
+    ],
+    "Splits": [],
+    "Extensions": [
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "GamePoints",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "WorldRanking",
+      "Pos": 0,
+      "Value": "2",
+      "Extensions": []
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.TEAM--------------.GPA-.00010000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "TSTWTEAM-------JPN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "TSTWTEAM-------CAM01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "3-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 2,
+      "Value": "W.TEAM--------------.GPA-.00040000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 2,
+        "Value": "TSTWTEAM-------JPN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 2,
+        "Value": "TSTWTEAM-------PAK01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 2,
+        "Value": "3-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 3,
+      "Value": "W.TEAM--------------.GPA-.00050000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 3,
+        "Value": "TSTWTEAM-------JPN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 3,
+        "Value": "TSTWTEAM-------KOR01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 3,
+        "Value": "3-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 4,
+      "Value": "W.TEAM--------------.SFNL.00010000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 4,
+        "Value": "TSTWTEAM-------JPN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 4,
+        "Value": "TSTWTEAM-------PHI01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 4,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "TPE",
+    "Reg": "TSTWTEAM-------TPE01",
+    "Name": "Chinese Taipei",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Chinese Taipei",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "TPE",
+      "Bib": "",
+      "Name": "ZHOU Yan-zhen",
+      "NameS": "ZHOU Yan-zhen",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "TPE",
+      "Bib": "",
+      "Name": "CHIANG Min-yu",
+      "NameS": "CHIANG Min-yu",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "TPE",
+      "Bib": "",
+      "Name": "LO Shu-ting",
+      "NameS": "LO Shu-ting",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "TPE",
+      "Bib": "",
+      "Name": "HSU Chiao-ying",
+      "NameS": "HSU Chiao-ying",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "TPE",
+      "Bib": "",
+      "Name": "HUANG Shih-yuan",
+      "NameS": "HUANG Shih-yuan",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     }
+    ],
+    "Splits": [],
+    "Extensions": [
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "GamePoints",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "WorldRanking",
+      "Pos": 0,
+      "Value": "2",
+      "Extensions": []
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.TEAM--------------.GPB-.00010000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "TSTWTEAM-------TPE01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "TSTWTEAM-------THA01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "3-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 2,
+      "Value": "W.TEAM--------------.GPB-.00030000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 2,
+        "Value": "TSTWTEAM-------TPE01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 2,
+        "Value": "TSTWTEAM-------MGL01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 2,
+        "Value": "3-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 3,
+      "Value": "W.TEAM--------------.GPB-.00050000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 3,
+        "Value": "TSTWTEAM-------TPE01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 3,
+        "Value": "TSTWTEAM-------PHI01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 3,
+        "Value": "3-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 4,
+      "Value": "W.TEAM--------------.SFNL.00020000",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 4,
+        "Value": "TSTWTEAM-------TPE01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 4,
+        "Value": "TSTWTEAM-------KOR01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 4,
+        "Value": "2-1"
+       }
+      ]
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet1",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet2",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet3",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet4",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet5",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet6",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet7",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet8",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsSet9",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ActionsTieBreak",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "AwayPoints",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "HomePoints",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ResultDetailWinner",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "SecondLevelStats",
+     "Pos": 0,
+     "Value": "False",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ServeClock",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ServeComposite",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "ServeSpeed",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "RESULT_INFO",
+     "Code": "SubMatchNum",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoMatch",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoTeam",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ServerHomeAway",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "BAN",
+    "JPN"
+   ],
+   "IsPhase": false,
+   "ResCode": "M.TEAM2-------------.GPH-.000100--",
+   "ShowLink": true,
+   "Disc": "VBV",
+   "DiscDesc": "Beach Volleyball",
+   "Key": "M.TEAM2-------------.GPH-.000100--",
+   "isH2H": true,
+   "Type": "D",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "HRB",
+   "VenueDesc": "Hekinan Ryokuchi Beach Court",
+   "VenueDescS": "Hekinan Ryokuchi Beach Court",
+   "Loc": "VB1",
+   "LocDesc": "Hekinan Ryokuchi Beach Court Main-FOP",
+   "LocDescS": "Hekinan Ryokuchi Beach Court Main-FOP",
+   "Event": "M.TEAM2-------------",
+   "EventDesc": "Men's",
+   "Phase": "M.TEAM2-------------.GPH-",
+   "PhaseOrder": 9,
+   "PhaseDesc": "Men's Preliminary Phase - Pool H - Matches",
+   "PhaseDescS": "Men's Preliminary Phase - Pool H - Matches",
+   "PhaseDescA": "Preliminary Phase - Pool H",
+   "UnitDesc": "",
+   "UnitDescS": "",
+   "UnitDescA": "",
+   "UnitNum": "31",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "Set 1",
+     "DescS": "Set 1"
+    },
+    {
+     "Order": 2,
+     "Desc": "Set 2",
+     "DescS": "Set 2"
+    }
+   ],
+   "Home": {
+    "Org": "BAN",
+    "Reg": "VBVMTEAM2------BAN01",
+    "Name": "",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "SHAIKAT M.  /  AHMED R",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "BAN",
+      "Bib": "2",
+      "Name": "SHAIKAT Md Ali Al Murammar Rakesh",
+      "NameS": "SHAIKAT Md Ali Al Murammar Rakesh",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "BAN",
+      "Bib": "1",
+      "Name": "AHMED Ratul",
+      "NameS": "AHMED Ratul",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "11",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "12",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "JPN",
+    "Reg": "VBVMTEAM2------JPN01",
+    "Name": "",
+    "Result": "1",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "KUROSAWA K  /  MIZUMACHI",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "JPN",
+      "Bib": "2",
+      "Name": "KUROSAWA Kota",
+      "NameS": "KUROSAWA Kota",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     },
+     {
+      "Org": "JPN",
+      "Bib": "1",
+      "Name": "MIZUMACHI Taito",
+      "NameS": "MIZUMACHI Taito",
+      "FuncDesc": "Athlete",
+      "PosDesc": ""
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "21",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "15",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "GROUP_INFO",
+     "Code": "NSETS",
+     "Pos": 0,
+     "Value": "2",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "JPN",
+    "THA"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAMREGU----------.GPA-.00010000",
+   "ShowLink": true,
+   "Disc": "SPK",
+   "DiscDesc": "Sepaktakraw",
+   "Key": "W.TEAMREGU----------.GPA-.00010000",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "MPG",
+   "VenueDesc": "",
+   "VenueDescS": "",
+   "Loc": "SE2",
+   "LocDesc": "Nagoya City Mizuho Park Gymnasium - Court 2",
+   "LocDescS": "Court 2",
+   "Event": "W.TEAMREGU----------",
+   "EventDesc": "Women's Team Regu",
+   "Phase": "W.TEAMREGU----------.GPA-",
+   "PhaseOrder": 50,
+   "PhaseDesc": "Women's Team Regu Preliminary Group A",
+   "PhaseDescS": "Women's Team Regu Pre. Grp. A",
+   "PhaseDescA": "Group A",
+   "UnitDesc": "Preliminary Group A 1",
+   "UnitDescS": "Preliminary Group A 1",
+   "UnitDescA": "Preliminary Group A 1",
+   "UnitNum": "WT1",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 0,
+     "Desc": "Match 1",
+     "DescS": "Match 1"
+    },
+    {
+     "Order": 0,
+     "Desc": "Match 2",
+     "DescS": "Match 2"
+    },
+    {
+     "Order": 0,
+     "Desc": "Match 3",
+     "DescS": "Match 3"
+    }
+   ],
+   "Home": {
+    "Org": "JPN",
+    "Reg": "SPKWTEAMREGU---JPN01",
+    "Name": "Japan",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Japan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "JPN",
+      "Bib": "1",
+      "Name": "MAKIO Nagisa",
+      "NameS": "MAKIO Nagisa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "2",
+      "Name": "IZAWA Chinatsu",
+      "NameS": "IZAWA Chinatsu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "3",
+      "Name": "KIYOSAWA Yuumi",
+      "NameS": "KIYOSAWA Yuumi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "4",
+      "Name": "HAYASHI Saki",
+      "NameS": "HAYASHI Saki",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "5",
+      "Name": "HARADA Shiori",
+      "NameS": "HARADA Shiori",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "6",
+      "Name": "KAWLU Patricia Nao",
+      "NameS": "KAWLU Patricia Nao",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "7",
+      "Name": "SAEGUSA Chinatsu",
+      "NameS": "SAEGUSA Chinatsu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "8",
+      "Name": "TORIUMI Chinatsu",
+      "NameS": "TORIUMI Chinatsu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "9",
+      "Name": "TOGAMI Kayo",
+      "NameS": "TOGAMI Kayo",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "10",
+      "Name": "SHIONO Hinata",
+      "NameS": "SHIONO Hinata",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "11",
+      "Name": "ONDA Minami",
+      "NameS": "ONDA Minami",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "12",
+      "Name": "TAGUCHI Aoba",
+      "NameS": "TAGUCHI Aoba",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "THA",
+    "Reg": "SPKWTEAMREGU---THA01",
+    "Name": "Thailand",
+    "Result": "1",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Thailand",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "THA",
+      "Bib": "4",
+      "Name": "PUMSAWANGKAEW Kaewjai",
+      "NameS": "PUMSAWANGKAEW Kaewjai",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "THA",
+      "Bib": "5",
+      "Name": "MANEEWONG Pruksa",
+      "NameS": "MANEEWONG Pruksa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "THA",
+      "Bib": "6",
+      "Name": "THONGSOD Ratsamee",
+      "NameS": "THONGSOD Ratsamee",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "THA",
+      "Bib": "7",
+      "Name": "BUNTHOD Manlika",
+      "NameS": "BUNTHOD Manlika",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "THA",
+      "Bib": "9",
+      "Name": "KONGKAEW Athikan",
+      "NameS": "KONGKAEW Athikan",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "THA",
+      "Bib": "10",
+      "Name": "PRUEPRUK Somruedee",
+      "NameS": "PRUEPRUK Somruedee",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "THA",
+      "Bib": "12",
+      "Name": "CHITPHUAN Wiphada",
+      "NameS": "CHITPHUAN Wiphada",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "THA",
+      "Bib": "14",
+      "Name": "SAEHEANG Ratchaneekorn",
+      "NameS": "SAEHEANG Ratchaneekorn",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "THA",
+      "Bib": "20",
+      "Name": "KHODPHOM Wilaiwan",
+      "NameS": "KHODPHOM Wilaiwan",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "THA",
+      "Bib": "23",
+      "Name": "SRIKHAMLUE Usa",
+      "NameS": "SRIKHAMLUE Usa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "THA",
+      "Bib": "24",
+      "Name": "SALUPPHON Nipaporn",
+      "NameS": "SALUPPHON Nipaporn",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "THA",
+      "Bib": "36",
+      "Name": "DUANGSRI Masaya",
+      "NameS": "DUANGSRI Masaya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "2",
+      "Extensions": []
+     },
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ]
+   }
+  },
+  {
+   "Orgs": [
+    "INA",
+    "KOR"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAMREGU----------.GPA-.00020000",
+   "ShowLink": true,
+   "Disc": "SPK",
+   "DiscDesc": "Sepaktakraw",
+   "Key": "W.TEAMREGU----------.GPA-.00020000",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "MPG",
+   "VenueDesc": "",
+   "VenueDescS": "",
+   "Loc": "SE3",
+   "LocDesc": "Nagoya City Mizuho Park Gymnasium - Court 3",
+   "LocDescS": "Court 3",
+   "Event": "W.TEAMREGU----------",
+   "EventDesc": "Women's Team Regu",
+   "Phase": "W.TEAMREGU----------.GPA-",
+   "PhaseOrder": 50,
+   "PhaseDesc": "Women's Team Regu Preliminary Group A",
+   "PhaseDescS": "Women's Team Regu Pre. Grp. A",
+   "PhaseDescA": "Group A",
+   "UnitDesc": "Preliminary Group A 2",
+   "UnitDescS": "Preliminary Group A 2",
+   "UnitDescA": "Preliminary Group A 2",
+   "UnitNum": "WT2",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 0,
+     "Desc": "Match 1",
+     "DescS": "Match 1"
+    },
+    {
+     "Order": 0,
+     "Desc": "Match 2",
+     "DescS": "Match 2"
+    },
+    {
+     "Order": 0,
+     "Desc": "Match 3",
+     "DescS": "Match 3"
+    }
+   ],
+   "Home": {
+    "Org": "INA",
+    "Reg": "SPKWTEAMREGU---INA01",
+    "Name": "Indonesia",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Indonesia",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "INA",
+      "Bib": "3",
+      "Name": "SARI Dini Mita",
+      "NameS": "SARI Dini Mita",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "INA",
+      "Bib": "4",
+      "Name": "LESTARI Fujy Anggy",
+      "NameS": "LESTARI Fujy Anggy",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "INA",
+      "Bib": "5",
+      "Name": "YULIANA",
+      "NameS": "YULIANA",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "INA",
+      "Bib": "7",
+      "Name": "RACHMADI Wan Annisa",
+      "NameS": "RACHMADI Wan Annisa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "INA",
+      "Bib": "8",
+      "Name": "PERDHANA Ayvonne Halimatu Zahra",
+      "NameS": "PERDHANA Ayvonne Halimatu Zahra",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "INA",
+      "Bib": "9",
+      "Name": "KUSNELIA",
+      "NameS": "KUSNELIA",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "INA",
+      "Bib": "10",
+      "Name": "CHOIRUNNISA",
+      "NameS": "CHOIRUNNISA",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "INA",
+      "Bib": "11",
+      "Name": "PRATIWI Dita",
+      "NameS": "PRATIWI Dita",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "INA",
+      "Bib": "12",
+      "Name": "INDRASARI Frisca Kharisma",
+      "NameS": "INDRASARI Frisca Kharisma",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "KOR",
+    "Reg": "SPKWTEAMREGU---KOR01",
+    "Name": "Republic of Korea",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Korea",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "KOR",
+      "Bib": "1",
+      "Name": "PARK Seonju",
+      "NameS": "PARK Seonju",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "2",
+      "Name": "HAN Yeji",
+      "NameS": "HAN Yeji",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "3",
+      "Name": "BAE Hanoul",
+      "NameS": "BAE Hanoul",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "4",
+      "Name": "KIM Seyoung",
+      "NameS": "KIM Seyoung",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "5",
+      "Name": "CHOI Jina",
+      "NameS": "CHOI Jina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "6",
+      "Name": "LEE Min-ju",
+      "NameS": "LEE Min-ju",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "7",
+      "Name": "WI Jiseon",
+      "NameS": "WI Jiseon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "9",
+      "Name": "KIM Ji Young",
+      "NameS": "KIM Ji Young",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "10",
+      "Name": "JEON Gyumi",
+      "NameS": "JEON Gyumi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Striker"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "11",
+      "Name": "BAE Chaeeun",
+      "NameS": "BAE Chaeeun",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Feeder"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "12",
+      "Name": "KIM Yeji",
+      "NameS": "KIM Yeji",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     },
+     {
+      "Org": "KOR",
+      "Bib": "17",
+      "Name": "JANG Gayeon",
+      "NameS": "JANG Gayeon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Tekong"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "1",
+      "Extensions": []
+     }
+    ]
+   }
+  },
+  {
+   "Orgs": [
+    "BAN",
+    "IND"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM--------------.SFNL.000200--",
+   "ShowLink": true,
+   "Disc": "CKT",
+   "DiscDesc": "Cricket",
+   "Key": "W.TEAM--------------.SFNL.000200--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "KAP",
+   "VenueDesc": "Korogi Athletic Park",
+   "VenueDescS": "Korogi Athletic Park",
+   "Loc": "KAP",
+   "LocDesc": "Korogi Athletic Park",
+   "LocDescS": "Korogi Athletic Park",
+   "Event": "W.TEAM--------------",
+   "EventDesc": "Women",
+   "Phase": "W.TEAM--------------.SFNL",
+   "PhaseOrder": 2,
+   "PhaseDesc": "Women's Semifinals",
+   "PhaseDescS": "Semifinals",
+   "PhaseDescA": "Semifinals",
+   "UnitDesc": "Women's Semifinal 2",
+   "UnitDescS": "Semifinal 2",
+   "UnitDescA": "Semifinal 2",
+   "UnitNum": "6",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "",
+     "DescS": ""
+    }
+   ],
+   "Home": {
+    "Org": "BAN",
+    "Reg": "CKTWTEAM-------BAN01",
+    "Name": "Bangladesh",
+    "Result": "0 - 0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Bangladesh",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "BAN",
+      "Bib": "1",
+      "Name": "JOTY Nigar Sultana",
+      "NameS": "JOTY Nigar Sultana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "2",
+      "Name": "KHAN Rabeya",
+      "NameS": "KHAN Rabeya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Leg Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "6",
+      "Name": "MOSTARY Sobhana",
+      "NameS": "MOSTARY Sobhana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "7",
+      "Name": "FERDOUS Juairiya",
+      "NameS": "FERDOUS Juairiya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "11",
+      "Name": "AKTER Shorna",
+      "NameS": "AKTER Shorna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "13",
+      "Name": "KHATUN Sultana",
+      "NameS": "KHATUN Sultana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "14",
+      "Name": "SUPTA Most Sharmin Akter",
+      "NameS": "SUPTA Most Sharmin Akter",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "32",
+      "Name": "AKTER Nahida",
+      "NameS": "AKTER Nahida",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "42",
+      "Name": "MAGHLA Mst Shanjida Akther",
+      "NameS": "MAGHLA Mst Shanjida Akther",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "90",
+      "Name": "AKTER Marufa",
+      "NameS": "AKTER Marufa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "92",
+      "Name": "AKTER Dilara",
+      "NameS": "AKTER Dilara",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "93",
+      "Name": "EASMIN Mst Farjana",
+      "NameS": "EASMIN Mst Farjana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "9",
+      "Name": "KHATUN Fahima",
+      "NameS": "KHATUN Fahima",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Leg Spinner"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "88",
+      "Name": "MONI Mst Ritu",
+      "NameS": "MONI Mst Ritu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "BAN",
+      "Bib": "84",
+      "Name": "SULTANA Mst Sarmin",
+      "NameS": "SULTANA Mst Sarmin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0 - 0",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "IND",
+    "Reg": "CKTWTEAM-------IND01",
+    "Name": "India",
+    "Result": "97 - 2",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "India",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "IND",
+      "Bib": "18",
+      "Name": "MANDHANA Smriti Shriniwas",
+      "NameS": "MANDHANA Smriti Shriniwas",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "17",
+      "Name": "Shafali",
+      "NameS": "Shafali",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "16",
+      "Name": "GUNALAN Kamalini",
+      "NameS": "GUNALAN Kamalini",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "IND",
+      "Bib": "23",
+      "Name": "BHULLAR Harmanpreet Kaur",
+      "NameS": "BHULLAR Harmanpreet Kaur",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "4",
+      "Name": "NALLAPUREDDY Sree Charani",
+      "NameS": "NALLAPUREDDY Sree Charani",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "6",
+      "Name": "SHARMA Deepti",
+      "NameS": "SHARMA Deepti",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "13",
+      "Name": "GHOSH Richa",
+      "NameS": "GHOSH Richa",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Wicket Keeper"
+     },
+     {
+      "Org": "IND",
+      "Bib": "26",
+      "Name": "GAUD Kranti Devi",
+      "NameS": "GAUD Kranti Devi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "IND",
+      "Bib": "31",
+      "Name": "RAJESH PATIL Shreyanka",
+      "NameS": "RAJESH PATIL Shreyanka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Off Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "45",
+      "Name": "FULMALI Bharti Shrikrushna",
+      "NameS": "FULMALI Bharti Shrikrushna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "58",
+      "Name": "SHARMA Nandani",
+      "NameS": "SHARMA Nandani",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "IND",
+      "Bib": "21",
+      "Name": "YADAV Radha Omprakash",
+      "NameS": "YADAV Radha Omprakash",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Left Arm Orthodox Spinner"
+     },
+     {
+      "Org": "IND",
+      "Bib": "10",
+      "Name": "Renuka",
+      "NameS": "Renuka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     },
+     {
+      "Org": "IND",
+      "Bib": "64",
+      "Name": "RAWAL Pratika",
+      "NameS": "RAWAL Pratika",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Hand Bat"
+     },
+     {
+      "Org": "IND",
+      "Bib": "20",
+      "Name": "Arundhati Reddy",
+      "NameS": "Arundhati Reddy",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Right Arm Medium Pacer"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "97 - 2",
+      "Extensions": []
+     }
+    ]
+   }
+  },
+  {
+   "Orgs": [
+    "IRI",
+    "CHN"
+   ],
+   "IsPhase": false,
+   "ResCode": "M.TEAM11------------.GPB-.000300--",
+   "ShowLink": true,
+   "Disc": "FBL",
+   "DiscDesc": "Football",
+   "Key": "M.TEAM11------------.GPB-.000300--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "WAV",
+   "VenueDesc": "WAVE STADIUM KARIYA",
+   "VenueDescS": "WAVE STADIUM KARIYA",
+   "Loc": "003",
+   "LocDesc": "WAVE STADIUM KARIYA",
+   "LocDescS": "WAVE STADIUM KARIYA",
+   "Event": "M.TEAM11------------",
+   "EventDesc": "Men",
+   "Phase": "M.TEAM11------------.GPB-",
+   "PhaseOrder": 26,
+   "PhaseDesc": "Men Group B",
+   "PhaseDescS": "Men Gr.B",
+   "PhaseDescA": "Group B",
+   "UnitDesc": "Men Group B",
+   "UnitDescS": "Men Gr.B",
+   "UnitDescA": "",
+   "UnitNum": "25",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "1st Half",
+     "DescS": "P1",
+     "Extensions": [
+      {
+       "Type": "SPLIT_INFO",
+       "Code": "AditionalTime",
+       "Pos": 0,
+       "Value": "",
+       "Extensions": []
+      }
+     ]
+    },
+    {
+     "Order": 2,
+     "Desc": "2nd Half",
+     "DescS": "P2",
+     "Extensions": [
+      {
+       "Type": "SPLIT_INFO",
+       "Code": "AditionalTime",
+       "Pos": 0,
+       "Value": "",
+       "Extensions": []
+      }
+     ]
+    }
+   ],
+   "Home": {
+    "Org": "IRI",
+    "Reg": "FBLMTEAM11-----IRI01",
+    "Name": "Islamic Republic of Iran",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "IR Iran",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "IRI",
+      "Bib": "1",
+      "Name": "KHALIFEH Mohammad",
+      "NameS": "KHALIFEH Mohammad",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "2",
+      "Name": "KOOHI Abolfazl",
+      "NameS": "KOOHI Abolfazl",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "3",
+      "Name": "MOAMELEHGARI Farzin",
+      "NameS": "MOAMELEHGARI Farzin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "4",
+      "Name": "IRI Danial",
+      "NameS": "IRI Danial",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "5",
+      "Name": "HAZBAVI Mohammad Amin",
+      "NameS": "HAZBAVI Mohammad Amin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "6",
+      "Name": "DEHGHAN Mobin",
+      "NameS": "DEHGHAN Mobin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "7",
+      "Name": "GHOLIZADEH S. Esmaeil",
+      "NameS": "GHOLIZADEH S. Esmaeil",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "8",
+      "Name": "RAZAGHINIA Amirmohammad",
+      "NameS": "RAZAGHINIA Amirmohammad",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "10",
+      "Name": "HOSSEINZADEH.. Amirhossein",
+      "NameS": "HOSSEINZADEH.. Amirhossein",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "16",
+      "Name": "KAHRIZI Abbas",
+      "NameS": "KAHRIZI Abbas",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "21",
+      "Name": "SHAHRABADI Pourya",
+      "NameS": "SHAHRABADI Pourya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "12",
+      "Name": "ZAREI Adib",
+      "NameS": "ZAREI Adib",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "22",
+      "Name": "ABASI Armin",
+      "NameS": "ABASI Armin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "9",
+      "Name": "SAHARKHIZAN G. Saeid",
+      "NameS": "SAHARKHIZAN G. Saeid",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "11",
+      "Name": "TAHERI Kasra",
+      "NameS": "TAHERI Kasra",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "13",
+      "Name": "SAHRAEI Soheil",
+      "NameS": "SAHRAEI Soheil",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "14",
+      "Name": "JAFARI Mehdi",
+      "NameS": "JAFARI Mehdi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "15",
+      "Name": "MOHEBBI Masoud",
+      "NameS": "MOHEBBI Masoud",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "18",
+      "Name": "LATIFIFAR Pouria",
+      "NameS": "LATIFIFAR Pouria",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "19",
+      "Name": "JORJANI Yasin",
+      "NameS": "JORJANI Yasin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "20",
+      "Name": "MAZRAEH Yousef",
+      "NameS": "MAZRAEH Yousef",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "17",
+      "Name": "GHANDI POUR Reza",
+      "NameS": "GHANDI POUR Reza",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "IRI",
+      "Bib": "23",
+      "Name": "LATIFI Ghasem",
+      "NameS": "LATIFI Ghasem",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "M.TEAM11------------.GPB-.000100--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "FBLMTEAM11-----IRI01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "FBLMTEAM11-----UAE01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "3-1"
+       }
+      ]
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "CurrentFouls",
+      "Pos": 0,
+      "Value": "3",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "CurrentTimeouts",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "DISCIPLINARY_MEASURES",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Formation",
+      "Pos": 0,
+      "Value": null,
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "SUBSTITUTIONS_BY_WINDOW",
+      "Pos": 0,
+      "Value": "1",
+      "Extensions": [
+       {
+        "Type": "WINDOW",
+        "Code": "SUBSTITUTIONS_COUNT",
+        "Pos": 1,
+        "Value": "1",
+        "Extensions": [
+         {
+          "Type": "SUBST",
+          "Code": "BIB_IN",
+          "Pos": 0,
+          "Value": "20"
+         },
+         {
+          "Type": "SUBST",
+          "Code": "BIB_OUT",
+          "Pos": 0,
+          "Value": "16"
+         },
+         {
+          "Type": "SUBST",
+          "Code": "PLAYER_IN",
+          "Pos": 0,
+          "Value": "11941780"
+         },
+         {
+          "Type": "SUBST",
+          "Code": "PLAYER_OUT",
+          "Pos": 0,
+          "Value": "11937898"
+         },
+         {
+          "Type": "SUBST",
+          "Code": "TEAM",
+          "Pos": 0,
+          "Value": "FBLMTEAM11-----IRI01"
+         },
+         {
+          "Type": "SUBST",
+          "Code": "TIME",
+          "Pos": 0,
+          "Value": "40'"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TCS",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "CHN",
+    "Reg": "FBLMTEAM11-----CHN01",
+    "Name": "People's Republic of China",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "China",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "CHN",
+      "Bib": "16",
+      "Name": "LI Hao",
+      "NameS": "LI Hao",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "2",
+      "Name": "HU Hetao",
+      "NameS": "HU Hetao",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "3",
+      "Name": "LIU Haofan",
+      "NameS": "LIU Haofan",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "5",
+      "Name": "ZHU Chenjie",
+      "NameS": "ZHU Chenjie",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "6",
+      "Name": "XU Bin",
+      "NameS": "XU Bin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "9",
+      "Name": "ZHANG Yuning",
+      "NameS": "ZHANG Yuning",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "10",
+      "Name": "WANG Yudong",
+      "NameS": "WANG Yudong",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "15",
+      "Name": "WU Xi",
+      "NameS": "WU Xi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "17",
+      "Name": "HE Yiran",
+      "NameS": "HE Yiran",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "22",
+      "Name": "MAO Weijie",
+      "NameS": "MAO Weijie",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "23",
+      "Name": "YANG Xi",
+      "NameS": "YANG Xi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "1",
+      "Name": "YU Jinyong",
+      "NameS": "YU Jinyong",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "12",
+      "Name": "YAO Haoyang",
+      "NameS": "YAO Haoyang",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "4",
+      "Name": "SHI Songchen",
+      "NameS": "SHI Songchen",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "7",
+      "Name": "XIANG Yuwang",
+      "NameS": "XIANG Yuwang",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "8",
+      "Name": "LI Xinxiang",
+      "NameS": "LI Xinxiang",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "11",
+      "Name": "KUAI Jiwen",
+      "NameS": "KUAI Jiwen",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "13",
+      "Name": "MUTALIFU Yimingkari",
+      "NameS": "MUTALIFU Yimingkari",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "14",
+      "Name": "YIMULAN Maimaiti",
+      "NameS": "YIMULAN Maimaiti",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "18",
+      "Name": "CHEN Zeshi",
+      "NameS": "CHEN Zeshi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "19",
+      "Name": "BAIHELAMU Abuduwaili",
+      "NameS": "BAIHELAMU Abuduwaili",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Forward"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "20",
+      "Name": "YANG Haoyu",
+      "NameS": "YANG Haoyu",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Midfielder"
+     },
+     {
+      "Org": "CHN",
+      "Bib": "21",
+      "Name": "PENG Xiao",
+      "NameS": "PENG Xiao",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Defender"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "M.TEAM11------------.GPB-.000200--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "FBLMTEAM11-----CHN01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "FBLMTEAM11-----PRK01"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "2-1"
+       }
+      ]
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "CurrentFouls",
+      "Pos": 0,
+      "Value": "8",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "CurrentTimeouts",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "DISCIPLINARY_MEASURES",
+      "Pos": 0,
+      "Value": "2",
+      "Extensions": [
+       {
+        "Type": "MEASURE",
+        "Code": "BIB",
+        "Pos": 0,
+        "Value": "22"
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "BIB",
+        "Pos": 1,
+        "Value": ""
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "FUNCTION",
+        "Pos": 0,
+        "Value": "Midfielder"
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "FUNCTION",
+        "Pos": 1,
+        "Value": "Head Coach"
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "REGISTER",
+        "Pos": 0,
+        "Value": "5332711"
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "REGISTER",
+        "Pos": 1,
+        "Value": "4038204"
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "SANCTION",
+        "Pos": 0,
+        "Value": "1 Yellow Card"
+       },
+       {
+        "Type": "MEASURE",
+        "Code": "SANCTION",
+        "Pos": 1,
+        "Value": "1 Yellow Card"
+       }
+      ]
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Formation",
+      "Pos": 0,
+      "Value": null,
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "SUBSTITUTIONS_BY_WINDOW",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "TCS",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "RESULT_INFO",
+     "Code": "SUBSTITUTIONS_BY_WINDOW",
+     "Pos": 0,
+     "Value": "1",
+     "Extensions": [
+      {
+       "Type": "WINDOW",
+       "Code": "SUBSTITUTIONS_COUNT",
+       "Pos": 1,
+       "Value": "1",
+       "Extensions": [
+        {
+         "Type": "SUBST",
+         "Code": "BIB_IN",
+         "Pos": 0,
+         "Value": "20"
+        },
+        {
+         "Type": "SUBST",
+         "Code": "BIB_OUT",
+         "Pos": 0,
+         "Value": "16"
+        },
+        {
+         "Type": "SUBST",
+         "Code": "PLAYER_IN",
+         "Pos": 0,
+         "Value": "11941780"
+        },
+        {
+         "Type": "SUBST",
+         "Code": "PLAYER_OUT",
+         "Pos": 0,
+         "Value": "11937898"
+        },
+        {
+         "Type": "SUBST",
+         "Code": "TEAM",
+         "Pos": 0,
+         "Value": "FBLMTEAM11-----IRI01"
+        },
+        {
+         "Type": "SUBST",
+         "Code": "TIME",
+         "Pos": 0,
+         "Value": "40'"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "AditionalTime",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoMatch",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoTeam",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualFaultsLocal",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualFaultsVisitor",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualMissLocal",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualMissVisitor",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualScoreLocal",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualScorePSOLocal",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualScorePSOVisitor",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualScoreVisitor",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ManualValues",
+     "Pos": 0,
+     "Value": "false",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ResultDetailedSDesc",
+     "Pos": 0,
+     "Value": null,
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ServerHomeAway",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutPeriod",
+     "Pos": 0,
+     "Value": "5",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutVisible",
+     "Pos": 0,
+     "Value": "false",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Spectators",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Temperature",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "TypePhase",
+     "Pos": 0,
+     "Value": "ePool",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "KUW",
+    "KSA"
+   ],
+   "IsPhase": false,
+   "ResCode": "M.60KG--------------.QFNL.000200--",
+   "ShowLink": true,
+   "Disc": "KTE",
+   "DiscDesc": "Karate",
+   "Key": "M.60KG--------------.QFNL.000200--",
+   "isH2H": true,
+   "Type": "A",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:10:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "TYH",
+   "VenueDesc": "Toyohashi Gymnasium",
+   "VenueDescS": "Toyohashi Gymnasium",
+   "Loc": "KT1",
+   "LocDesc": "TYH Tatami 1",
+   "LocDescS": "TYH Tatami 1",
+   "Event": "M.60KG--------------",
+   "EventDesc": "Men's Kumite -60kg",
+   "Phase": "M.60KG--------------.QFNL",
+   "PhaseOrder": 14,
+   "PhaseDesc": "Men's Kumite -60kg Quarterfinals",
+   "PhaseDescS": "Quarterfinals",
+   "PhaseDescA": "Quarterfinals",
+   "UnitDesc": "Men's Kumite -60kg Quarterfinal",
+   "UnitDescS": "Quarterfinal",
+   "UnitDescA": "Quarterfinal",
+   "UnitNum": "120",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "1st Round",
+     "DescS": "R1"
+    }
+   ],
+   "Home": {
+    "Org": "KUW",
+    "Reg": "11993215",
+    "Name": "SHAABAN Abdullah",
+    "Result": "9",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "SHAABAN A",
+    "Medal": "",
+    "Splits": [],
+    "Extensions": [
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Chukoku",
+      "Pos": 0,
+      "Value": "true",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Chukoku2",
+      "Pos": 0,
+      "Value": "true",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Keikoku",
+      "Pos": 0,
+      "Value": "true",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1HansokuChui",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Hansoku",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Yuko",
+      "Pos": 0,
+      "Value": "6",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "WazaAri",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Ippon",
+      "Pos": 0,
+      "Value": "1",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Senshu",
+      "Pos": 0,
+      "Value": "true",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Colour",
+      "Pos": 0,
+      "Value": "BLUE",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "VR",
+      "Pos": 0,
+      "Value": "true",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Obi",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "KSA",
+    "Reg": "13389188",
+    "Name": "ALBASHER Saud Abdulaziz B",
+    "Result": "7",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "ALBASHER SAB",
+    "Medal": "",
+    "Splits": [],
+    "Extensions": [
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Chukoku",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Chukoku2",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Keikoku",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1HansokuChui",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Category1Hansoku",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Yuko",
+      "Pos": 0,
+      "Value": "5",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "WazaAri",
+      "Pos": 0,
+      "Value": "1",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Ippon",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Senshu",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Colour",
+      "Pos": 0,
+      "Value": "RED",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "VR",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "Obi",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CompetitorUnderReview",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Decision",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "DecisionIVR",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "IsKata",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_01",
+     "Pos": 0,
+     "Value": "02:45;YUKO;Aka;;1:0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_02",
+     "Pos": 0,
+     "Value": "02:45;SENSHU;Aka;;2:0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_03",
+     "Pos": 0,
+     "Value": "02:26;CHUI (first instance);Aka;;2:0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_04",
+     "Pos": 0,
+     "Value": "02:19;IPPON;Aka;;5:0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_05",
+     "Pos": 0,
+     "Value": "02:15;YUKO;Aka;;6:0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_06",
+     "Pos": 0,
+     "Value": "01:52;Video Review Reject;Aka;;6:0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_07",
+     "Pos": 0,
+     "Value": "01:52;WAZA-ARI;Ao;;6:2",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_08",
+     "Pos": 0,
+     "Value": "01:52;SENSHU;Ao;;6:2",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_09",
+     "Pos": 0,
+     "Value": "01:44;YUKO;Aka;;7:2",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_10",
+     "Pos": 0,
+     "Value": "01:42;YUKO;Ao;;7:3",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_11",
+     "Pos": 0,
+     "Value": "01:36;YUKO;Ao;;7:4",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_12",
+     "Pos": 0,
+     "Value": "01:25;CHUI (second instance);Aka;;7:4",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_13",
+     "Pos": 0,
+     "Value": "01:21;YUKO;Aka;;8:4",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_14",
+     "Pos": 0,
+     "Value": "01:06;YUKO;Ao;;8:5",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_15",
+     "Pos": 0,
+     "Value": "01:04;YUKO;Ao;;8:6",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_16",
+     "Pos": 0,
+     "Value": "00:47;CHUI (third instance);Aka;;8:6",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_17",
+     "Pos": 0,
+     "Value": "00:43;YUKO;Ao;;8:7",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_18",
+     "Pos": 0,
+     "Value": "00:29;YUKO;Aka;;9:7",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "Technique_19",
+     "Pos": 0,
+     "Value": "00:27;YUKO;Aka;;10:7",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "UnderReview",
+     "Pos": 0,
+     "Value": "False",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "JPN",
+    "THA"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TEAM7-------------.FNL-.000300--",
+   "ShowLink": true,
+   "Disc": "WPO",
+   "DiscDesc": "Water Polo",
+   "Key": "W.TEAM7-------------.FNL-.000300--",
+   "isH2H": true,
+   "Type": "T",
+   "Medal": "",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:30:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "GEG",
+   "VenueDesc": "Nagoya City General Gymnasium [Rainbow Pool]",
+   "VenueDescS": "Nagoya General Gymnasium [Rainbow Pool]",
+   "Loc": "001",
+   "LocDesc": "Nagoya General Gymnasium[Rainbow Pool]",
+   "LocDescS": "Nagoya General Gymnasium[Rainbow Pool]",
+   "Event": "W.TEAM7-------------",
+   "EventDesc": "Women",
+   "Phase": "W.TEAM7-------------.FNL-",
+   "PhaseOrder": 26,
+   "PhaseDesc": "Women Round Robin",
+   "PhaseDescS": "Women Round Robin",
+   "PhaseDescA": "Round Robin",
+   "UnitDesc": "Women Round Robin Match 3",
+   "UnitDescS": "Women Round Robin M 3",
+   "UnitDescA": "Match 3",
+   "UnitNum": "3",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "Quarter 1",
+     "DescS": "Q1"
+    },
+    {
+     "Order": 2,
+     "Desc": "Quarter 2",
+     "DescS": "Q2"
+    },
+    {
+     "Order": 3,
+     "Desc": "Quarter 3",
+     "DescS": "Q3"
+    },
+    {
+     "Order": 4,
+     "Desc": "Quarter 4",
+     "DescS": "Q4"
+    },
+    {
+     "Order": 5,
+     "Desc": "Penalty Shoot-out",
+     "DescS": "PSO"
+    }
+   ],
+   "Home": {
+    "Org": "JPN",
+    "Reg": "WPOWTEAM7------JPN01",
+    "Name": "Japan",
+    "Result": "6",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Japan",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "JPN",
+      "Bib": "1",
+      "Name": "INABA Haruka",
+      "NameS": "INABA Haruka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "2",
+      "Name": "ARIMA Yumi",
+      "NameS": "ARIMA Yumi",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre Back"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "3",
+      "Name": "INABA Akari",
+      "NameS": "INABA Akari",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "4",
+      "Name": "URA Eruna",
+      "NameS": "URA Eruna",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "5",
+      "Name": "KAWAGUCHI Kako",
+      "NameS": "KAWAGUCHI Kako",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "6",
+      "Name": "SHITARA Hikaru",
+      "NameS": "SHITARA Hikaru",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre Forward"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "7",
+      "Name": "SUNABE Ai",
+      "NameS": "SUNABE Ai",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "8",
+      "Name": "SEKINE Saya",
+      "NameS": "SEKINE Saya",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "10",
+      "Name": "NISHIYAMA Fuka",
+      "NameS": "NISHIYAMA Fuka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "11",
+      "Name": "INOUE Momo",
+      "NameS": "INOUE Momo",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre Back"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "12",
+      "Name": "KOBAYASHI Maho",
+      "NameS": "KOBAYASHI Maho",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "13",
+      "Name": "NODA Manami",
+      "NameS": "NODA Manami",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "14",
+      "Name": "LOWREY Nina",
+      "NameS": "LOWREY Nina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "JPN",
+      "Bib": "15",
+      "Name": "FUKUDA Shoka",
+      "NameS": "FUKUDA Shoka",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "6",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "RESULT_INFO",
+      "Code": "AvailableVideoReferral",
+      "Pos": 0,
+      "Value": "Y",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSO_Shooters",
+      "Pos": 0,
+      "Value": "1|2|3|4|5",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "RegularTimeResult",
+      "Pos": 0,
+      "Value": "6",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "TIMEOUTS",
+      "Code": "TimeOuts",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "THA",
+    "Reg": "WPOWTEAM7------THA01",
+    "Name": "Thailand",
+    "Result": "1",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "Thailand",
+    "Medal": "",
+    "Members": [
+     {
+      "Org": "THA",
+      "Bib": "1",
+      "Name": "ARSAYUTH Phanthila",
+      "NameS": "ARSAYUTH Phanthila",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "THA",
+      "Bib": "2",
+      "Name": "KWANTONGTANAREE Thanidakarn",
+      "NameS": "KWANTONGTANAREE Thanidakarn",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre Back"
+     },
+     {
+      "Org": "THA",
+      "Bib": "3",
+      "Name": "PUKKAMAN Panita",
+      "NameS": "PUKKAMAN Panita",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "4",
+      "Name": "THINWILAI Janista",
+      "NameS": "THINWILAI Janista",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "5",
+      "Name": "CHOTROTCHANAANAN Paranee",
+      "NameS": "CHOTROTCHANAANAN Paranee",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "6",
+      "Name": "KONGCHOUY Thanita",
+      "NameS": "KONGCHOUY Thanita",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre Forward"
+     },
+     {
+      "Org": "THA",
+      "Bib": "7",
+      "Name": "PUANGTONG Kritsana",
+      "NameS": "PUANGTONG Kritsana",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "8",
+      "Name": "KHAMMA Nattamon",
+      "NameS": "KHAMMA Nattamon",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "9",
+      "Name": "RUEANGSAPPAISAN Raksina",
+      "NameS": "RUEANGSAPPAISAN Raksina",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "10",
+      "Name": "RUEANGSAPPAISAN Sarocha",
+      "NameS": "RUEANGSAPPAISAN Sarocha",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Centre Back"
+     },
+     {
+      "Org": "THA",
+      "Bib": "11",
+      "Name": "KWANTONGTANAREE Pittayaporn",
+      "NameS": "KWANTONGTANAREE Pittayaporn",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "12",
+      "Name": "NGAMCHAROENSUKTAWORN Pimpin",
+      "NameS": "NGAMCHAROENSUKTAWORN Pimpin",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     },
+     {
+      "Org": "THA",
+      "Bib": "13",
+      "Name": "KITTIPOLPUWARAG Nareenun",
+      "NameS": "KITTIPOLPUWARAG Nareenun",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Goalkeeper"
+     },
+     {
+      "Org": "THA",
+      "Bib": "14",
+      "Name": "RIANGSUNTEA Kanruetai",
+      "NameS": "RIANGSUNTEA Kanruetai",
+      "FuncDesc": "Athlete",
+      "PosDesc": "Driver"
+     }
+    ],
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "1",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "RESULT_INFO",
+      "Code": "AvailableVideoReferral",
+      "Pos": 0,
+      "Value": "Y",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromPhaseKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromRank",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "ComesFromUnitKey",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSO_Shooters",
+      "Pos": 0,
+      "Value": "1|2|3|4|5",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "PSOResult",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "RESULT_INFO",
+      "Code": "RegularTimeResult",
+      "Pos": 0,
+      "Value": "1",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     },
+     {
+      "Type": "TIMEOUTS",
+      "Code": "TimeOuts",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ConsoleFouls",
+     "Pos": 0,
+     "Value": "N",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "CurrentSplitColorado",
+     "Pos": 0,
+     "Value": "1",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "HasPSO",
+     "Pos": 0,
+     "Value": "N",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoMatch",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoTeam",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "PSOResult",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "RegularTimeResult",
+     "Pos": 0,
+     "Value": "(6-1)",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ServerHomeAway",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutPeriod",
+     "Pos": 0,
+     "Value": "5",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ShootOutVisible",
+     "Pos": 0,
+     "Value": "false",
+     "Extensions": []
+    }
+   ]
+  },
+  {
+   "Orgs": [
+    "SGP",
+    "TPE",
+    "KOR",
+    "THA",
+    "HKG",
+    "BRU",
+    "PHI",
+    "MAS",
+    "NEP",
+    "JPN",
+    "CHN",
+    "PAK"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.TAIJ--------------.FNL-.000200--",
+   "ShowLink": true,
+   "Disc": "WSU",
+   "DiscDesc": "Wushu",
+   "Key": "W.TAIJ--------------.FNL-.000200--",
+   "isH2H": false,
+   "Type": "A",
+   "Medal": "1",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:30:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "PMA",
+   "VenueDesc": "Aichi Prefectural Martial Arts Hall",
+   "VenueDescS": "Aichi Prefectural Martial Arts Hall",
+   "Loc": "WSU",
+   "LocDesc": "Aichi Prefectural Martial Arts Hall",
+   "LocDescS": "Aichi Prefectural Martial Arts Hall",
+   "Event": "W.TAIJ--------------",
+   "EventDesc": "Women's Taijiquan & Taijijian",
+   "Phase": "W.TAIJ--------------.FNL-",
+   "PhaseOrder": 1,
+   "PhaseDesc": "Women's Taijiquan & Taijijian",
+   "PhaseDescS": "Women's Taijiquan & Taijijian",
+   "PhaseDescA": "Final",
+   "UnitDesc": "Taijijian Final",
+   "UnitDescS": "Taijijian Final",
+   "UnitDescA": "Taijijian Final",
+   "UnitNum": "",
+   "IsLive": true,
+   "ShowResults": true,
+   "Counters": {
+    "Partics": 13,
+    "Orgs": 12
+   }
+  },
+  {
+   "Orgs": [
+    "IND",
+    "JPN",
+    "KOR",
+    "CHN"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.ARW---------------.FNL-.000100--",
+   "ShowLink": true,
+   "Disc": "SHO",
+   "DiscDesc": "Shooting",
+   "Key": "W.ARW---------------.FNL-.000100--",
+   "isH2H": false,
+   "Type": "A",
+   "Medal": "1",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:30:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "Followed by",
+   "HideLocation": false,
+   "Venue": "PGS",
+   "VenueDesc": "Aichi Prefectural General Shooting Gallery",
+   "VenueDescS": "Aichi Pref. General Shooting Gallery",
+   "Loc": "SH1",
+   "LocDesc": "Final Range",
+   "LocDescS": "Final Range",
+   "Event": "W.ARW---------------",
+   "EventDesc": "10m Air Rifle Women Individual",
+   "Phase": "W.ARW---------------.FNL-",
+   "PhaseOrder": 2,
+   "PhaseDesc": "10m Air Rifle Women Individual Final",
+   "PhaseDescS": "10m Air Rifle Women Individual Final",
+   "PhaseDescA": "Final",
+   "UnitDesc": "10m Air Rifle Women Individual - Final",
+   "UnitDescS": "10m Air Rifle Women Individual - Final",
+   "UnitDescA": "Final",
+   "UnitNum": "1",
+   "IsLive": true,
+   "ShowResults": true,
+   "Counters": {
+    "Partics": 8,
+    "Orgs": 4
+   }
+  },
+  {
+   "Orgs": [
+    "KOR",
+    "JPN",
+    "CHN",
+    "UZB",
+    "KAZ",
+    "PHI",
+    "THA"
+   ],
+   "IsPhase": false,
+   "ResCode": "M.INDIVID-----------.FNL-.0001FE--",
+   "ShowLink": true,
+   "Disc": "MPN",
+   "DiscDesc": "Modern Pentathlon",
+   "Key": "M.INDIVID-----------.FNL-.0001FE--",
+   "isH2H": false,
+   "Type": "A",
+   "Medal": "0",
+   "Status": "RUNNING",
+   "StatusDesc": "Running",
+   "DateTimeRaw": "2026-09-20T14:30:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "ASP",
+   "VenueDesc": "Anjo Sports Park",
+   "VenueDescS": "Anjo Sports Park",
+   "Loc": "ASP",
+   "LocDesc": "",
+   "LocDescS": "",
+   "Event": "M.INDIVID-----------",
+   "EventDesc": "Men's Individual",
+   "Phase": "M.INDIVID-----------.FNL-",
+   "PhaseOrder": 6,
+   "PhaseDesc": "Final",
+   "PhaseDescS": "Final",
+   "PhaseDescA": "Final",
+   "UnitDesc": "Men's Individual, Final, Fencing Direct Elimination",
+   "UnitDescS": "Fencing Direct Elimination",
+   "UnitDescA": "Fencing Direct Elimination",
+   "UnitNum": "17",
+   "IsLive": true,
+   "ShowResults": true,
+   "Counters": {
+    "Partics": 18,
+    "Orgs": 7
+   }
+  },
+  {
+   "Orgs": [
+    "INA",
+    "MYA"
+   ],
+   "IsPhase": false,
+   "ResCode": "W.SINGLES-----------.FNL-.000100--",
+   "ShowLink": true,
+   "Disc": "TEQ",
+   "DiscDesc": "Teqball",
+   "Key": "W.SINGLES-----------.FNL-.000100--",
+   "isH2H": true,
+   "Type": "A",
+   "Medal": "1",
+   "Status": "GETTING_READY",
+   "StatusDesc": "Getting Ready",
+   "DateTimeRaw": "2026-09-20T15:00:00+09:00",
+   "HideStartDate": false,
+   "Estimated": false,
+   "EstText": "",
+   "HideLocation": false,
+   "Venue": "NHS",
+   "VenueDesc": "",
+   "VenueDescS": "",
+   "Loc": "001",
+   "LocDesc": "Table 1",
+   "LocDescS": "Table 1",
+   "Event": "W.SINGLES-----------",
+   "EventDesc": "Women's Singles",
+   "Phase": "W.SINGLES-----------.FNL-",
+   "PhaseOrder": 1,
+   "PhaseDesc": "Women's Singles Final",
+   "PhaseDescS": "WS F",
+   "PhaseDescA": "Final",
+   "UnitDesc": "Women's Singles Final Gold Medal Match",
+   "UnitDescS": "WS F GM",
+   "UnitDescA": "Gold Medal Match",
+   "UnitNum": "18",
+   "IsLive": true,
+   "ShowResults": true,
+   "Periods": [
+    {
+     "Order": 1,
+     "Desc": "Set 1",
+     "DescS": "S1"
+    },
+    {
+     "Order": 2,
+     "Desc": "Set 2",
+     "DescS": "S2"
+    },
+    {
+     "Order": 3,
+     "Desc": "Set 3",
+     "DescS": "S3"
+    }
+   ],
+   "Home": {
+    "Org": "INA",
+    "Reg": "496759",
+    "Name": "SUMAYA",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "SUMAYA",
+    "Medal": "",
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCard",
+      "Pos": 0,
+      "Value": "False",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCardAwayScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCardGame",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCardHomeScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "Game1DetailCards",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "Game2DetailCards",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "Game3DetailCards",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "NRedCard",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "RedCard",
+      "Pos": 0,
+      "Value": "False",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "RedCardDetail",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "WorldRanking",
+      "Pos": 0,
+      "Value": "2",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCard",
+      "Pos": 0,
+      "Value": "False",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCardAwayScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCardGame",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCardHomeScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.SINGLES-----------.GPB-.000200--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "496759"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "6757428"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 2,
+      "Value": "W.SINGLES-----------.GPB-.000400--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 2,
+        "Value": "496759"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 2,
+        "Value": "15115333"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 2,
+        "Value": "0-2"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 3,
+      "Value": "W.SINGLES-----------.GPB-.000500--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 3,
+        "Value": "496759"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 3,
+        "Value": "8651642"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 3,
+        "Value": "2-1"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 4,
+      "Value": "W.SINGLES-----------.QFNL.000200--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 4,
+        "Value": "496759"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 4,
+        "Value": "7807161"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 4,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 5,
+      "Value": "W.SINGLES-----------.SFNL.000100--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 5,
+        "Value": "496759"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 5,
+        "Value": "2713709"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 5,
+        "Value": "2-1"
+       }
+      ]
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "1",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "true",
+      "Extensions": []
+     }
+    ]
+   },
+   "Away": {
+    "Org": "MYA",
+    "Reg": "15115333",
+    "Name": "KHIN HNIN Wai",
+    "Result": "0",
+    "Winner": false,
+    "HasData": true,
+    "NameS": "KHIN HNIN W",
+    "Medal": "",
+    "Splits": [
+     {
+      "Rk": "",
+      "RkPo": 0,
+      "Res": "0",
+      "Extensions": []
+     }
+    ],
+    "Extensions": [
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCard",
+      "Pos": 0,
+      "Value": "False",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCardAwayScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCardGame",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "BlackCardHomeScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "Game1DetailCards",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "Game2DetailCards",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "Game3DetailCards",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "NRedCard",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "RedCard",
+      "Pos": 0,
+      "Value": "False",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "RedCardDetail",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "WorldRanking",
+      "Pos": 0,
+      "Value": "2",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCard",
+      "Pos": 0,
+      "Value": "False",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCardAwayScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCardGame",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "COMPETITOR_INFO",
+      "Code": "YellowCardHomeScore",
+      "Pos": 0,
+      "Value": "0",
+      "Extensions": []
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 1,
+      "Value": "W.SINGLES-----------.GPB-.000100--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 1,
+        "Value": "15115333"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 1,
+        "Value": "8651642"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 1,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 2,
+      "Value": "W.SINGLES-----------.GPB-.000400--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 2,
+        "Value": "15115333"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 2,
+        "Value": "496759"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 2,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 3,
+      "Value": "W.SINGLES-----------.GPB-.000600--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 3,
+        "Value": "15115333"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 3,
+        "Value": "6757428"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 3,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "PREV_RESULT",
+      "Code": "UNIT_KEY",
+      "Pos": 4,
+      "Value": "W.SINGLES-----------.SFNL.000200--",
+      "Extensions": [
+       {
+        "Type": "RESULT",
+        "Code": "Register",
+        "Pos": 4,
+        "Value": "15115333"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "RegisterOpp",
+        "Pos": 4,
+        "Value": "6757428"
+       },
+       {
+        "Type": "RESULT",
+        "Code": "Result",
+        "Pos": 4,
+        "Value": "2-0"
+       }
+      ]
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "MemberServer",
+      "Pos": 0,
+      "Value": "",
+      "Extensions": []
+     },
+     {
+      "Type": "SERVICE",
+      "Code": "Server",
+      "Pos": 0,
+      "Value": "false",
+      "Extensions": []
+     }
+    ]
+   },
+   "Extensions": [
+    {
+     "Type": "UNIT_INFO",
+     "Code": "DurationHHMM",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoMatch",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "InfoTeam",
+     "Pos": 0,
+     "Value": "0",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ResultDetailWinner",
+     "Pos": 0,
+     "Value": "",
+     "Extensions": []
+    },
+    {
+     "Type": "UNIT_INFO",
+     "Code": "ServerHomeAway",
+     "Pos": 0,
+     "Value": "1",
+     "Extensions": []
+    }
+   ]
+  }
+ ]
+}
